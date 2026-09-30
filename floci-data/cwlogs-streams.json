@@ -74,10 +74,10 @@
     "logStreamName" : "2026/09/30/8f53f4c0",
     "createdTime" : 1790748656694,
     "firstEventTimestamp" : 1790748656709,
-    "lastEventTimestamp" : 1790748665295,
-    "lastIngestionTime" : 1790748665295,
-    "uploadSequenceToken" : "9f8da7aa-63fa-44d8-9c85-0442c58792a2",
-    "storedBytes" : 7507
+    "lastEventTimestamp" : 1790756961981,
+    "lastIngestionTime" : 1790756961981,
+    "uploadSequenceToken" : "74c4ddd9-00af-4b38-a5b7-5aa7c8174d9b",
+    "storedBytes" : 99353
   },
   "000000000000/us-east-1::/aws/lambda/lomax-image-processor::2026/09/27/[$LATEST]84831b68" : {
     "logGroupName" : "/aws/lambda/lomax-image-processor",
@@ -127,6 +127,16 @@
     "lastEventTimestamp" : null,
     "lastIngestionTime" : 0,
     "uploadSequenceToken" : "6c58588a-c08d-4e08-aaba-8d117684d4fa",
+    "storedBytes" : 0
+  },
+  "000000000000/us-east-1::/aws/lambda/lomax-image-processor::2026/09/30/[$LATEST]9e968d27" : {
+    "logGroupName" : "/aws/lambda/lomax-image-processor",
+    "logStreamName" : "2026/09/30/[$LATEST]9e968d27",
+    "createdTime" : 1790755503106,
+    "firstEventTimestamp" : null,
+    "lastEventTimestamp" : null,
+    "lastIngestionTime" : 0,
+    "uploadSequenceToken" : "6c37d609-5acc-4dda-ac1b-4da4b441fabe",
     "storedBytes" : 0
   },
   "000000000000/us-east-1::/aws/lambda/lomax-image-processor::2026/09/27/[$LATEST]c3ab5fcf" : {

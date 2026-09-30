@@ -819,10 +819,10 @@
         }
       },
       "imagen_original_key" : {
-        "S" : "originales/7/imagen.png"
+        "S" : "originales/7/cohete-1200x800.png"
       },
       "miniatura_key" : {
-        "S" : "miniaturas/7/imagen-thumb.png"
+        "S" : "miniaturas/7/cohete-1200x800-thumb.png"
       },
       "estado_imagen" : {
         "S" : "LISTA"

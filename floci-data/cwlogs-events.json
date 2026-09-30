@@ -34,6 +34,13 @@
     "ingestionTime" : 1790484737938,
     "sequence" : 161
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756614230::21e81dd9-4308-46e3-9ea4-e6f3181b1e7a" : {
+    "eventId" : "21e81dd9-4308-46e3-9ea4-e6f3181b1e7a",
+    "timestamp" : 1790756614230,
+    "message" : "time=\"2026-09-30T08:23:31.189523893Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=d342ec76-575a-4793-a438-221f2c8a31b1 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:36524\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=27.84574ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756614230,
+    "sequence" : 1741
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790488562015::3e17335f-4b9c-4930-8c5c-29f43b7ad1a7" : {
     "eventId" : "3e17335f-4b9c-4930-8c5c-29f43b7ad1a7",
     "timestamp" : 1790488562015,
@@ -89,6 +96,13 @@
     "message" : "time=\"2026-09-27T04:53:00.011672188Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:e76228b47809e8a4bd37a6ba52a04d282d8c72ddf0ff9e8b83fd6318631abd52 err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=220f5036-67db-4a8a-bc83-8b12061462ee http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:35140\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:e76228b47809e8a4bd37a6ba52a04d282d8c72ddf0ff9e8b83fd6318631abd52\" http.request.useragent=\"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=\"946.277µs\" http.response.status=404 http.response.written=157 vars.digest=\"sha256:e76228b47809e8a4bd37a6ba52a04d282d8c72ddf0ff9e8b83fd6318631abd52\" vars.name=lomax-frontend",
     "ingestionTime" : 1790484780890,
     "sequence" : 258
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756615502::1af25427-1e45-44cc-b581-1893cf9936ac" : {
+    "eventId" : "1af25427-1e45-44cc-b581-1893cf9936ac",
+    "timestamp" : 1790756615502,
+    "message" : "time=\"2026-09-30T08:23:31.226437765Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:d5e12b6358948004de8d169cfd4b07e7c557605862ad8d9ad42194eb04f93a61 err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=88a5159f-7c65-4679-88c1-a34009e360fe http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:36540\" http.request.uri=\"/v2/lomax-backend/blobs/sha256:d5e12b6358948004de8d169cfd4b07e7c557605862ad8d9ad42194eb04f93a61\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=\"371.203µs\" http.response.status=404 http.response.written=157 vars.digest=\"sha256:d5e12b6358948004de8d169cfd4b07e7c557605862ad8d9ad42194eb04f93a61\" vars.name=lomax-backend",
+    "ingestionTime" : 1790756615502,
+    "sequence" : 1756
   },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/27/ed061594::001790537037710::deef28cb-b187-4266-a423-b56969204cdf" : {
     "eventId" : "deef28cb-b187-4266-a423-b56969204cdf",
@@ -216,6 +230,13 @@
     "ingestionTime" : 1790489284798,
     "sequence" : 1040
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756615652::205a49e1-2ed9-43e1-8121-7e2a4a7dff71" : {
+    "eventId" : "205a49e1-2ed9-43e1-8121-7e2a4a7dff71",
+    "timestamp" : 1790756615652,
+    "message" : "time=\"2026-09-30T08:23:31.231997834Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=a74b804e-10ae-47ed-9824-d4390241e400 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:36532\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=8.20782ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756615652,
+    "sequence" : 1758
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485060708::4a2f7041-e429-4a3f-aa93-c54e5700a244" : {
     "eventId" : "4a2f7041-e429-4a3f-aa93-c54e5700a244",
     "timestamp" : 1790485060708,
@@ -299,6 +320,13 @@
     "message" : "172.17.0.1 - - [27/Sep/2026:04:52:17 +0000] \"HEAD /v2/lomax-backend/blobs/sha256:0ecac1a43901fe6bdbe231d1c63f0b6af04c2cad21c0968ef1faff5780c08968 HTTP/1.1\" 404 157 \"\" \"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\\\(windows\\\\))\"",
     "ingestionTime" : 1790484738273,
     "sequence" : 176
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756679479::e20ed6a0-1c3f-4891-909e-270f747b8bed" : {
+    "eventId" : "e20ed6a0-1c3f-4891-909e-270f747b8bed",
+    "timestamp" : 1790756679479,
+    "message" : "time=\"2026-09-30T08:24:34.680431624Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:43fd84858a188299702a87252fac260623d3594ff8ce2c73a1be76b3b6cbda5d err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=6350dae9-7c20-4acd-8882-9299ba9b7a2c http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:55460\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:43fd84858a188299702a87252fac260623d3594ff8ce2c73a1be76b3b6cbda5d\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=1.392772ms http.response.status=404 http.response.written=157 vars.digest=\"sha256:43fd84858a188299702a87252fac260623d3594ff8ce2c73a1be76b3b6cbda5d\" vars.name=lomax-frontend",
+    "ingestionTime" : 1790756679479,
+    "sequence" : 1823
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485148229::932fc21c-418f-42bf-bbdd-7b477cc31eb4" : {
     "eventId" : "932fc21c-418f-42bf-bbdd-7b477cc31eb4",
@@ -391,6 +419,13 @@
     "ingestionTime" : 1790489283636,
     "sequence" : 1015
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756678851::c664c1ba-3b28-4970-9f9b-32e6544cd633" : {
+    "eventId" : "c664c1ba-3b28-4970-9f9b-32e6544cd633",
+    "timestamp" : 1790756678851,
+    "message" : "time=\"2026-09-30T08:24:34.677537677Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=4e513cbd-6de5-4e59-80db-1536a2d70aef http.request.method=POST http.request.remoteaddr=\"172.17.0.1:55460\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=10.942953ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756678851,
+    "sequence" : 1818
+  },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/27/d66de642::001790473401633::f3d39e6b-647f-4c4d-b5ef-b5eaee926a59" : {
     "eventId" : "f3d39e6b-647f-4c4d-b5ef-b5eaee926a59",
     "timestamp" : 1790473401633,
@@ -425,6 +460,13 @@
     "message" : "2026-09-27 03:46:32.015 UTC [33] LOG:  checkpoint starting: time",
     "ingestionTime" : 1790480792019,
     "sequence" : 90
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756616051::374a7609-f224-4d8c-8da0-ada5cb522583" : {
+    "eventId" : "374a7609-f224-4d8c-8da0-ada5cb522583",
+    "timestamp" : 1790756616051,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"POST /v2/lomax-backend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756616051,
+    "sequence" : 1762
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485148166::547acdb6-a2d8-480b-82cc-20f43440d9a5" : {
     "eventId" : "547acdb6-a2d8-480b-82cc-20f43440d9a5",
@@ -517,6 +559,13 @@
     "ingestionTime" : 1790748335165,
     "sequence" : 1684
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756676641::ad041821-658f-4a39-8887-b59780bdc8a8" : {
+    "eventId" : "ad041821-658f-4a39-8887-b59780bdc8a8",
+    "timestamp" : 1790756676641,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"POST /v2/lomax-frontend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756676641,
+    "sequence" : 1798
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484532757::67810610-4686-4396-b52f-63de7c351b19" : {
     "eventId" : "67810610-4686-4396-b52f-63de7c351b19",
     "timestamp" : 1790484532757,
@@ -572,6 +621,13 @@
     "message" : "--> GET /assets/query-vendor-BzDIgHqe.js \u001B[32m200\u001B[0m 19ms",
     "ingestionTime" : 1790488562217,
     "sequence" : 899
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756613363::b08807fd-543e-4a80-b838-522deae28b10" : {
+    "eventId" : "b08807fd-543e-4a80-b838-522deae28b10",
+    "timestamp" : 1790756613363,
+    "message" : "time=\"2026-09-30T08:23:31.186646494Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=420d04e1-178c-408a-a796-8a9188bf4ad4 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:36540\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=25.299429ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756613363,
+    "sequence" : 1737
   },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/27/d66de642::001790472502318::0f8b130e-5b46-44ab-a677-6ca54e070437" : {
     "eventId" : "0f8b130e-5b46-44ab-a677-6ca54e070437",
@@ -671,6 +727,13 @@
     "ingestionTime" : 1790489287350,
     "sequence" : 1091
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756611304::f3a6f9c6-854d-4a47-bb4d-9de3d618af7a" : {
+    "eventId" : "f3a6f9c6-854d-4a47-bb4d-9de3d618af7a",
+    "timestamp" : 1790756611304,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"HEAD /v2/lomax-backend/blobs/sha256:a2e4e63b8580d299a98ca8fc0019feb0d49c83419715abb974111b23300db689 HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756611305,
+    "sequence" : 1725
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790538240899::805de486-7eb7-43fb-86a2-28fc060cb126" : {
     "eventId" : "805de486-7eb7-43fb-86a2-28fc060cb126",
     "timestamp" : 1790538240899,
@@ -699,6 +762,13 @@
     "ingestionTime" : 1790485908305,
     "sequence" : 706
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756681214::c7aa355c-9350-45fc-91a7-05ec3065f1fa" : {
+    "eventId" : "c7aa355c-9350-45fc-91a7-05ec3065f1fa",
+    "timestamp" : 1790756681214,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"HEAD /v2/lomax-frontend/blobs/sha256:3f4413e7fc618a385d61161d2a7a06e2477a2935acad41c8f9718231deb3bd5f HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756681214,
+    "sequence" : 1836
+  },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/27/d66de642::001790472502386::4ba2efd2-59c0-42b7-82a2-15f0b33140f1" : {
     "eventId" : "4ba2efd2-59c0-42b7-82a2-15f0b33140f1",
     "timestamp" : 1790472502386,
@@ -726,6 +796,13 @@
     "message" : "<-- GET /api/clouds/aws/status",
     "ingestionTime" : 1790485024549,
     "sequence" : 461
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756615261::0ace107c-a29e-4dd7-8dfb-699b7948f0b6" : {
+    "eventId" : "0ace107c-a29e-4dd7-8dfb-699b7948f0b6",
+    "timestamp" : 1790756615261,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"PUT /v2/lomax-backend/blobs/uploads/99bc7ecb-4989-4d07-96e7-d10cba24c50a?_state=B3hBpQJ7Pd2dLxe7E91aIhLEn7_7dYxz9_AsoSXdDzF7Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6Ijk5YmM3ZWNiLTQ5ODktNGQwNy05NmU3LWQxMGNiYTI0YzUwYSIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4xNjQyNzM0NjVaIn0%3D&digest=sha256%3A4a43a40b039e72c4176e2fcbb0c08f42be7ff4e6a07722417801c9147b67bfb2 HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756615261,
+    "sequence" : 1753
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489282642::70c62d7e-dee8-4b2e-add6-41ec297e9467" : {
     "eventId" : "70c62d7e-dee8-4b2e-add6-41ec297e9467",
@@ -874,6 +951,13 @@
     "ingestionTime" : 1790485012806,
     "sequence" : 444
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756680781::0c3a5cdc-708c-4d9c-953c-0dd316f03878" : {
+    "eventId" : "0c3a5cdc-708c-4d9c-953c-0dd316f03878",
+    "timestamp" : 1790756680781,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"POST /v2/lomax-frontend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756680781,
+    "sequence" : 1832
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790537728707::5a0d31ab-ef61-40da-ae92-857a561d8263" : {
     "eventId" : "5a0d31ab-ef61-40da-ae92-857a561d8263",
     "timestamp" : 1790537728707,
@@ -1021,6 +1105,13 @@
     "ingestionTime" : 1790537736142,
     "sequence" : 1453
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756682008::3fbc65c5-99c5-4862-8fc8-c31c439da593" : {
+    "eventId" : "3fbc65c5-99c5-4862-8fc8-c31c439da593",
+    "timestamp" : 1790756682008,
+    "message" : "time=\"2026-09-30T08:24:34.733186804Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=f889cb5a-212a-4006-b81c-d5627da1246c http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:55460\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/6d4755f2-726f-47af-9afa-fdab377cb716?_state=Tz94IM9N9E4QfknGvjnQlAqY89B_p-93qI0aYq1__Y17Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI2ZDQ3NTVmMi03MjZmLTQ3YWYtOWFmYS1mZGFiMzc3Y2I3MTYiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNzE0OTgzNjcyWiJ9&digest=sha256%3A3f4413e7fc618a385d61161d2a7a06e2477a2935acad41c8f9718231deb3bd5f\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=8.149554ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756682008,
+    "sequence" : 1844
+  },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/27/d66de642::001790472502406::d96bcac4-5587-4904-a2f3-b44376aa0203" : {
     "eventId" : "d96bcac4-5587-4904-a2f3-b44376aa0203",
     "timestamp" : 1790472502406,
@@ -1112,6 +1203,13 @@
     "ingestionTime" : 1790486512311,
     "sequence" : 814
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756679773::052c1cf1-02eb-4bc5-9c63-2f2c142ed9ed" : {
+    "eventId" : "052c1cf1-02eb-4bc5-9c63-2f2c142ed9ed",
+    "timestamp" : 1790756679773,
+    "message" : "time=\"2026-09-30T08:24:34.685226863Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=c19b84f0-c776-41b6-acfa-cb06508f4429 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:55476\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=9.679603ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756679773,
+    "sequence" : 1826
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489291372::3d8105c1-3ae1-4f48-abf1-553bdffa2294" : {
     "eventId" : "3d8105c1-3ae1-4f48-abf1-553bdffa2294",
     "timestamp" : 1790489291372,
@@ -1132,6 +1230,13 @@
     "message" : "waiting for server to start....2026-09-28 19:25:35.243 UTC [53] LOG:  starting PostgreSQL 16.3 on x86_64-pc-linux-musl, compiled by gcc (Alpine 13.2.1_git20240309) 13.2.1 20240309, 64-bit",
     "ingestionTime" : 1790623540070,
     "sequence" : 1612
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756675037::b6418925-38a5-41e9-80b7-7e83d822afba" : {
+    "eventId" : "b6418925-38a5-41e9-80b7-7e83d822afba",
+    "timestamp" : 1790756675037,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"HEAD /v2/lomax-frontend/blobs/sha256:745dfb2690dd8627e1593941caccc756f14943df7930a478beb4e808c5695cb9 HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756675037,
+    "sequence" : 1785
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485147353::cdd7a668-9043-4ab2-a53f-a0b908c09d0c" : {
     "eventId" : "cdd7a668-9043-4ab2-a53f-a0b908c09d0c",
@@ -1273,6 +1378,20 @@
     "ingestionTime" : 1790488562715,
     "sequence" : 910
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756615159::528a533c-309d-452f-8560-562b796d8408" : {
+    "eventId" : "528a533c-309d-452f-8560-562b796d8408",
+    "timestamp" : 1790756615159,
+    "message" : "time=\"2026-09-30T08:23:31.222952357Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=7e309ff0-3195-4628-8fa9-fe402e17250a http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:36532\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/99bc7ecb-4989-4d07-96e7-d10cba24c50a?_state=B3hBpQJ7Pd2dLxe7E91aIhLEn7_7dYxz9_AsoSXdDzF7Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6Ijk5YmM3ZWNiLTQ5ODktNGQwNy05NmU3LWQxMGNiYTI0YzUwYSIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4xNjQyNzM0NjVaIn0%3D&digest=sha256%3A4a43a40b039e72c4176e2fcbb0c08f42be7ff4e6a07722417801c9147b67bfb2\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=17.519797ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756615159,
+    "sequence" : 1752
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756616249::5fe28270-003d-47f6-900f-00f8c1c3ab7c" : {
+    "eventId" : "5fe28270-003d-47f6-900f-00f8c1c3ab7c",
+    "timestamp" : 1790756616249,
+    "message" : "time=\"2026-09-30T08:23:31.245594032Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:e86b6a8d5530297cd7988d89a647b362d53b599c52ef39d89aa0c2b89b882d6c err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=e40dcc4b-2808-42f2-9024-c011cfb10bfa http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:36532\" http.request.uri=\"/v2/lomax-backend/blobs/sha256:e86b6a8d5530297cd7988d89a647b362d53b599c52ef39d89aa0c2b89b882d6c\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=1.324398ms http.response.status=404 http.response.written=157 vars.digest=\"sha256:e86b6a8d5530297cd7988d89a647b362d53b599c52ef39d89aa0c2b89b882d6c\" vars.name=lomax-backend",
+    "ingestionTime" : 1790756616249,
+    "sequence" : 1764
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485064068::3672bf22-bd9a-4332-83f1-5cf6a83efb78" : {
     "eventId" : "3672bf22-bd9a-4332-83f1-5cf6a83efb78",
     "timestamp" : 1790485064068,
@@ -1335,6 +1454,13 @@
     "message" : "time=\"2026-09-27T04:52:59.883299288Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:91eec2c9bb5e9a270a1cac810172d973f0609748d53d73d0e4cb2961dc429cab err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=3602e98c-b671-48c0-9e9f-9cbb161233a3 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:35114\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:91eec2c9bb5e9a270a1cac810172d973f0609748d53d73d0e4cb2961dc429cab\" http.request.useragent=\"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=7.551218ms http.response.status=404 http.response.written=157 vars.digest=\"sha256:91eec2c9bb5e9a270a1cac810172d973f0609748d53d73d0e4cb2961dc429cab\" vars.name=lomax-frontend",
     "ingestionTime" : 1790537725328,
     "sequence" : 1320
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756613154::135a42eb-e81f-41d5-806b-a9b9853c01d9" : {
+    "eventId" : "135a42eb-e81f-41d5-806b-a9b9853c01d9",
+    "timestamp" : 1790756613154,
+    "message" : "time=\"2026-09-30T08:23:31.18643272Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=7ff635d2-7c48-48f0-af93-c26a37c10952 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:36532\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=26.786641ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756613154,
+    "sequence" : 1735
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485416001::635cd669-cf3b-4749-ab10-456c8a43e766" : {
     "eventId" : "635cd669-cf3b-4749-ab10-456c8a43e766",
@@ -1448,6 +1574,13 @@
     "ingestionTime" : 1790485107904,
     "sequence" : 580
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756676723::676b94c0-66bd-4e99-a1dd-b2c6016c1bcb" : {
+    "eventId" : "676b94c0-66bd-4e99-a1dd-b2c6016c1bcb",
+    "timestamp" : 1790756676723,
+    "message" : "time=\"2026-09-30T08:24:34.62760448Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=74334b42-7c7d-4134-b9ba-2c9b193a1be8 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:55460\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=14.226113ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756676723,
+    "sequence" : 1799
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489288205::c1ecf0e2-7efd-4665-a67c-a69ebde4beb1" : {
     "eventId" : "c1ecf0e2-7efd-4665-a67c-a69ebde4beb1",
     "timestamp" : 1790489288205,
@@ -1482,6 +1615,13 @@
     "message" : "time=\"2026-09-27T05:54:35.891300638Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=eac3c5f8-6a5b-49dd-987a-8a6a72e842b5 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:50862\" http.request.uri=\"/v2/lomax-backend/blobs/sha256:e86b6a8d5530297cd7988d89a647b362d53b599c52ef39d89aa0c2b89b882d6c\" http.request.useragent=\"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\(windows\\))\" http.response.contenttype=\"application/octet-stream\" http.response.duration=2.596177ms http.response.status=200 http.response.written=0",
     "ingestionTime" : 1790489292733,
     "sequence" : 1182
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756616735::82e7be0d-832c-4162-9e9a-c83546355b23" : {
+    "eventId" : "82e7be0d-832c-4162-9e9a-c83546355b23",
+    "timestamp" : 1790756616735,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"POST /v2/lomax-backend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756616735,
+    "sequence" : 1769
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790487635936::b6689237-a6ea-470a-939e-3ba9cf71ec2a" : {
     "eventId" : "b6689237-a6ea-470a-939e-3ba9cf71ec2a",
@@ -1545,6 +1685,13 @@
     "message" : "172.17.0.1 - - [27/Sep/2026:04:52:18 +0000] \"PUT /v2/lomax-backend/manifests/1.0 HTTP/1.1\" 201 0 \"\" \"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\\\(windows\\\\))\"",
     "ingestionTime" : 1790484738906,
     "sequence" : 214
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756617722::b9b3efc5-879f-4c25-8509-e48be0996faf" : {
+    "eventId" : "b9b3efc5-879f-4c25-8509-e48be0996faf",
+    "timestamp" : 1790756617722,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"PUT /v2/lomax-backend/manifests/1.0 HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756617722,
+    "sequence" : 1780
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790537724358::643a49a7-2c48-4195-a5ff-b722b30ed5f1" : {
     "eventId" : "643a49a7-2c48-4195-a5ff-b722b30ed5f1",
@@ -1770,6 +1917,13 @@
     "ingestionTime" : 1790537865324,
     "sequence" : 1477
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756615771::5dfed61c-8c8f-4c43-89ec-f7493c710acf" : {
+    "eventId" : "5dfed61c-8c8f-4c43-89ec-f7493c710acf",
+    "timestamp" : 1790756615771,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"POST /v2/lomax-backend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756615771,
+    "sequence" : 1759
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485147879::e75be66e-15b3-437a-a8dc-73138671da7d" : {
     "eventId" : "e75be66e-15b3-437a-a8dc-73138671da7d",
     "timestamp" : 1790485147879,
@@ -1832,6 +1986,20 @@
     "message" : "--> GET /api/clouds/aws/services/k8s/resources?search= \u001B[32m200\u001B[0m 14ms",
     "ingestionTime" : 1790486512891,
     "sequence" : 830
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756675783::44214a31-af39-4c96-84e5-8a558405d124" : {
+    "eventId" : "44214a31-af39-4c96-84e5-8a558405d124",
+    "timestamp" : 1790756675783,
+    "message" : "time=\"2026-09-30T08:24:34.585411117Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:d9aae54b58315e84b9c3ac5f00bad6610e0e28ad9ff28fcde694647e0be13131 err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=848e12ee-afca-45d0-92aa-ec759ad334a1 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:55468\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:d9aae54b58315e84b9c3ac5f00bad6610e0e28ad9ff28fcde694647e0be13131\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=7.687372ms http.response.status=404 http.response.written=157 vars.digest=\"sha256:d9aae54b58315e84b9c3ac5f00bad6610e0e28ad9ff28fcde694647e0be13131\" vars.name=lomax-frontend",
+    "ingestionTime" : 1790756675783,
+    "sequence" : 1791
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756617527::2a6c53c5-7c1e-49a0-8255-55fbb89e4ce4" : {
+    "eventId" : "2a6c53c5-7c1e-49a0-8255-55fbb89e4ce4",
+    "timestamp" : 1790756617527,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"HEAD /v2/lomax-backend/manifests/1.0 HTTP/1.1\" 404 93 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756617527,
+    "sequence" : 1778
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790484975823::32dbc7e6-97b6-4069-8565-4bcb718c92ad" : {
     "eventId" : "32dbc7e6-97b6-4069-8565-4bcb718c92ad",
@@ -1917,6 +2085,13 @@
     "ingestionTime" : 1790484780340,
     "sequence" : 234
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756616421::b631d2ea-2d6e-4702-94bc-d6f066a9ad35" : {
+    "eventId" : "b631d2ea-2d6e-4702-94bc-d6f066a9ad35",
+    "timestamp" : 1790756616421,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"HEAD /v2/lomax-backend/blobs/sha256:e86b6a8d5530297cd7988d89a647b362d53b599c52ef39d89aa0c2b89b882d6c HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756616421,
+    "sequence" : 1765
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790537723168::b0a1e948-17c5-44a7-89b8-4be53d505c3b" : {
     "eventId" : "b0a1e948-17c5-44a7-89b8-4be53d505c3b",
     "timestamp" : 1790537723168,
@@ -1986,6 +2161,13 @@
     "message" : "time=\"2026-09-27T04:16:29.545120688Z\" level=warning msg=\"No HTTP secret provided - generated random secret. This may cause problems with uploads if multiple registries are behind a load-balancer. To provide a shared secret, fill in http.secret in the configuration file or set the REGISTRY_HTTP_SECRET environment variable.\" go.version=go1.20.8 instance.id=909cff98-a6df-414e-b20f-3f3eb6b03725 service=registry version=2.8.3",
     "ingestionTime" : 1790537717067,
     "sequence" : 1219
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756611481::c198e7bc-ec12-4e26-a135-55c1821d10a0" : {
+    "eventId" : "c198e7bc-ec12-4e26-a135-55c1821d10a0",
+    "timestamp" : 1790756611481,
+    "message" : "time=\"2026-09-30T08:23:31.158060978Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:4a43a40b039e72c4176e2fcbb0c08f42be7ff4e6a07722417801c9147b67bfb2 err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=e0f486d6-c682-4b4a-a353-7a7444f9b80a http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:36532\" http.request.uri=\"/v2/lomax-backend/blobs/sha256:4a43a40b039e72c4176e2fcbb0c08f42be7ff4e6a07722417801c9147b67bfb2\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=11.233214ms http.response.status=404 http.response.written=157 vars.digest=\"sha256:4a43a40b039e72c4176e2fcbb0c08f42be7ff4e6a07722417801c9147b67bfb2\" vars.name=lomax-backend",
+    "ingestionTime" : 1790756611481,
+    "sequence" : 1726
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489288253::87a24e3b-cd85-4056-895c-a7c1236b770a" : {
     "eventId" : "87a24e3b-cd85-4056-895c-a7c1236b770a",
@@ -2077,6 +2259,13 @@
     "message" : "2026-09-27 06:07:45.722 UTC [1] LOG:  listening on Unix socket \"/var/run/postgresql/.s.PGSQL.5432\"",
     "ingestionTime" : 1790489266990,
     "sequence" : 970
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756612967::74c5d8d4-afd1-47e3-9008-b46cc9f19c44" : {
+    "eventId" : "74c5d8d4-afd1-47e3-9008-b46cc9f19c44",
+    "timestamp" : 1790756612967,
+    "message" : "time=\"2026-09-30T08:23:31.158039974Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:3d9fb74714202c0d9ba7af2ca3e226fec5647f73cefc725b7ff37338bc1b59ec err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=38dd0744-95be-4489-8fc5-418c3db55758 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:36540\" http.request.uri=\"/v2/lomax-backend/blobs/sha256:3d9fb74714202c0d9ba7af2ca3e226fec5647f73cefc725b7ff37338bc1b59ec\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=11.103646ms http.response.status=404 http.response.written=157 vars.digest=\"sha256:3d9fb74714202c0d9ba7af2ca3e226fec5647f73cefc725b7ff37338bc1b59ec\" vars.name=lomax-backend",
+    "ingestionTime" : 1790756612967,
+    "sequence" : 1733
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489282743::6b9b62dd-e4e6-471a-bec1-203a9d99cb74" : {
     "eventId" : "6b9b62dd-e4e6-471a-bec1-203a9d99cb74",
@@ -2183,6 +2372,13 @@
     "ingestionTime" : 1790485148519,
     "sequence" : 642
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756805282::969082f6-8e2c-48e0-ba28-841288f7de95" : {
+    "eventId" : "969082f6-8e2c-48e0-ba28-841288f7de95",
+    "timestamp" : 1790756805282,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:26:45 +0000] \"POST / HTTP/1.1\" 200 0 \"\" \"aws-cli/2.36.44 md/awscrt#0.36.2 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.14.6 md/pyimpl#CPython m/n,Z,E,N,b cfg/retry-mode#standard md/installer#script-exe sid/60ea2314d577 md/prompt#off md/command#ecr.get-login-password\"",
+    "ingestionTime" : 1790756805282,
+    "sequence" : 1852
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790486504571::d0bc93e1-9494-46aa-a7fb-c914a514dac9" : {
     "eventId" : "d0bc93e1-9494-46aa-a7fb-c914a514dac9",
     "timestamp" : 1790486504571,
@@ -2253,6 +2449,13 @@
     "ingestionTime" : 1790489289784,
     "sequence" : 1137
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756011069::05a31fff-8939-4535-9111-d3b871049c8d" : {
+    "eventId" : "05a31fff-8939-4535-9111-d3b871049c8d",
+    "timestamp" : 1790756011069,
+    "message" : "time=\"2026-09-30T08:13:31.06902643Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"floci-ecr-registry:5000\" http.request.id=3f8fd1b4-0418-42dd-92c2-09011c7a9dec http.request.method=GET http.request.remoteaddr=\"172.23.0.2:41432\" http.request.uri=\"/v2/_catalog\" http.request.useragent=\"Java-http-client/25.0.4.1\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=1.030024ms http.response.status=200 http.response.written=34",
+    "ingestionTime" : 1790756011069,
+    "sequence" : 1719
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790748657273::0c975585-4442-42d4-a916-f8d49e33e5ed" : {
     "eventId" : "0c975585-4442-42d4-a916-f8d49e33e5ed",
     "timestamp" : 1790748657273,
@@ -2266,6 +2469,13 @@
     "message" : "172.17.0.1 - - [27/Sep/2026:05:54:35 +0000] \"HEAD /v2/lomax-backend/blobs/sha256:3d9fb74714202c0d9ba7af2ca3e226fec5647f73cefc725b7ff37338bc1b59ec HTTP/1.1\" 200 0 \"\" \"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\\\(windows\\\\))\"",
     "ingestionTime" : 1790489292045,
     "sequence" : 1173
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756616501::0ebd24a5-9bf4-4938-96b9-2ee50ecc5333" : {
+    "eventId" : "0ebd24a5-9bf4-4938-96b9-2ee50ecc5333",
+    "timestamp" : 1790756616501,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"PUT /v2/lomax-backend/blobs/uploads/f52af07f-7ac3-450c-b707-0e719448a6cf?_state=g4F2UBo5x4cJzmGaCSqFCfpUx20oyGWkT2HvUVwZ9tt7Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6ImY1MmFmMDdmLTdhYzMtNDUwYy1iNzA3LTBlNzE5NDQ4YTZjZiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4yMjQxODQwOFoifQ%3D%3D&digest=sha256%3Acb36b5fd0b3bbd6cbbb0c10100c64e1fa543bcdc13b1a8275f87eb29d70ff2cc HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756616501,
+    "sequence" : 1766
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484780372::e39a1a35-dfcf-4d91-b226-f5dfd0e45bf0" : {
     "eventId" : "e39a1a35-dfcf-4d91-b226-f5dfd0e45bf0",
@@ -2294,6 +2504,13 @@
     "message" : "--> GET /api/clouds/aws/services/kms/resources \u001B[32m200\u001B[0m 9ms",
     "ingestionTime" : 1790486505480,
     "sequence" : 794
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756594204::d0178b00-9f66-4818-86eb-4df61a4b8c72" : {
+    "eventId" : "d0178b00-9f66-4818-86eb-4df61a4b8c72",
+    "timestamp" : 1790756594204,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:14 +0000] \"POST / HTTP/1.1\" 200 0 \"\" \"aws-cli/2.36.44 md/awscrt#0.36.2 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.14.6 md/pyimpl#CPython m/n,Z,E,N,b cfg/retry-mode#standard md/installer#script-exe sid/60ea2314d577 md/prompt#off md/command#ecr.get-login-password\"",
+    "ingestionTime" : 1790756594204,
+    "sequence" : 1723
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485102503::60ac8d2f-4aa6-4894-8dd8-76170d5e31e8" : {
     "eventId" : "60ac8d2f-4aa6-4894-8dd8-76170d5e31e8",
@@ -2336,6 +2553,13 @@
     "message" : "time=\"2026-09-27T04:52:17.492779531Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=0133ff1b-5494-46c1-9713-03d8eeab198a http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:43866\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/ed678d4a-541d-4272-8e0c-8e3f1b4a49ba?_state=0g8vV3J_h6t1SfHH4L8wJdfKv5BKdyyXoNt97JMfh2d7Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6ImVkNjc4ZDRhLTU0MWQtNDI3Mi04ZTBjLThlM2YxYjRhNDliYSIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0yN1QwNDo1MjoxNy4zODkwOTg4OTZaIn0%3D&digest=sha256%3A44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a\" http.request.useragent=\"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\(windows\\))\" http.response.duration=65.127629ms http.response.status=201 http.response.written=0",
     "ingestionTime" : 1790537719597,
     "sequence" : 1255
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756681581::8bb974bc-0949-4705-9cbb-7749408f447c" : {
+    "eventId" : "8bb974bc-0949-4705-9cbb-7749408f447c",
+    "timestamp" : 1790756681581,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"PUT /v2/lomax-frontend/blobs/uploads/6c8a36fa-f060-467b-844f-684f9ff0611c?_state=etfYU5YCTeBeM7MeQp7Dp0TzRzShH8Ssj2L492AKosJ7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI2YzhhMzZmYS1mMDYwLTQ2N2ItODQ0Zi02ODRmOWZmMDYxMWMiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNjg3MjA2Mjg0WiJ9&digest=sha256%3A43fd84858a188299702a87252fac260623d3594ff8ce2c73a1be76b3b6cbda5d HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756681581,
+    "sequence" : 1840
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790486504358::484eb760-0254-409f-bf1d-b524db4de2fb" : {
     "eventId" : "484eb760-0254-409f-bf1d-b524db4de2fb",
@@ -2504,6 +2728,20 @@
     "message" : "172.17.0.1 - - [27/Sep/2026:04:52:17 +0000] \"POST /v2/lomax-backend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\\\(windows\\\\))\"",
     "ingestionTime" : 1790484738035,
     "sequence" : 166
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756616893::659d31f6-bbab-4286-b97e-64a148003959" : {
+    "eventId" : "659d31f6-bbab-4286-b97e-64a148003959",
+    "timestamp" : 1790756616893,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"PUT /v2/lomax-backend/blobs/uploads/b8db5e4c-d0f9-4daf-9d25-64e43eb78a36?_state=mEiaMhjZcFzHGcwaBTG1PBjs0BccJQa9r1ia5kpNf6x7Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6ImI4ZGI1ZTRjLWQwZjktNGRhZi05ZDI1LTY0ZTQzZWI3OGEzNiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4yNTQwNjg2NjNaIn0%3D&digest=sha256%3Ae86b6a8d5530297cd7988d89a647b362d53b599c52ef39d89aa0c2b89b882d6c HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756616893,
+    "sequence" : 1771
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756675550::166cbf8a-30c6-4453-984a-6677c88c3ef1" : {
+    "eventId" : "166cbf8a-30c6-4453-984a-6677c88c3ef1",
+    "timestamp" : 1790756675550,
+    "message" : "time=\"2026-09-30T08:24:34.585384052Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:745dfb2690dd8627e1593941caccc756f14943df7930a478beb4e808c5695cb9 err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=1adf03a0-f334-4776-971c-a0f7b7bf36e0 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:55460\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:745dfb2690dd8627e1593941caccc756f14943df7930a478beb4e808c5695cb9\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=7.609678ms http.response.status=404 http.response.written=157 vars.digest=\"sha256:745dfb2690dd8627e1593941caccc756f14943df7930a478beb4e808c5695cb9\" vars.name=lomax-frontend",
+    "ingestionTime" : 1790756675550,
+    "sequence" : 1789
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485060568::a2d37592-cca4-4b56-b7d9-818dded27b21" : {
     "eventId" : "a2d37592-cca4-4b56-b7d9-818dded27b21",
@@ -2680,6 +2918,20 @@
     "ingestionTime" : 1790485006142,
     "sequence" : 393
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756617352::abdc3d1b-8163-472b-b198-b87dc996e44b" : {
+    "eventId" : "abdc3d1b-8163-472b-b198-b87dc996e44b",
+    "timestamp" : 1790756617352,
+    "message" : "time=\"2026-09-30T08:23:31.387228632Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=8889d3a9-2ed8-417d-a421-b02ecf02be30 http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:36532\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/08fa5bcc-1463-4c06-bd02-0e64f7e777c5?_state=KBq84ImCbh_1VSx1_dFVkwa6riHXue7KxI-o1Q-rhr17Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6IjA4ZmE1YmNjLTE0NjMtNGMwNi1iZDAyLTBlNjRmN2U3NzdjNSIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4yMzI2MTEyMTJaIn0%3D&digest=sha256%3Ad5e12b6358948004de8d169cfd4b07e7c557605862ad8d9ad42194eb04f93a61\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=141.29973ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756617352,
+    "sequence" : 1776
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756675315::d1616a1f-a42d-4c95-8180-8d0e44d1c9d2" : {
+    "eventId" : "d1616a1f-a42d-4c95-8180-8d0e44d1c9d2",
+    "timestamp" : 1790756675315,
+    "message" : "time=\"2026-09-30T08:24:34.585481449Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:6c53d0b2a666ed8f8fad8d9982e30cf24eb085036c17b27591665ca25e1ba40c err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=18769e13-5ef7-4f51-a301-80be6a483ccc http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:55466\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:6c53d0b2a666ed8f8fad8d9982e30cf24eb085036c17b27591665ca25e1ba40c\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=7.775443ms http.response.status=404 http.response.written=157 vars.digest=\"sha256:6c53d0b2a666ed8f8fad8d9982e30cf24eb085036c17b27591665ca25e1ba40c\" vars.name=lomax-frontend",
+    "ingestionTime" : 1790756675315,
+    "sequence" : 1788
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489284554::1e42b286-4e82-435c-a46f-87b086dede80" : {
     "eventId" : "1e42b286-4e82-435c-a46f-87b086dede80",
     "timestamp" : 1790489284554,
@@ -2757,6 +3009,13 @@
     "ingestionTime" : 1790486509424,
     "sequence" : 798
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756676997::f20b7c4d-9c84-4fd9-815a-dd8f3ecb5e36" : {
+    "eventId" : "f20b7c4d-9c84-4fd9-815a-dd8f3ecb5e36",
+    "timestamp" : 1790756676997,
+    "message" : "time=\"2026-09-30T08:24:34.638513712Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=a48db9d7-2916-4893-9052-e35f05d77b20 http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:55466\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/1db017c5-e4bf-4c27-a526-24b88fc35172?_state=hkAnXnNuUzQxjPsY4hlnvfUWtFBynttvJdvXjnhnhDB7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiIxZGIwMTdjNS1lNGJmLTRjMjctYTUyNi0yNGI4OGZjMzUxNzIiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNTg5NjI5NTg5WiJ9&digest=sha256%3A745dfb2690dd8627e1593941caccc756f14943df7930a478beb4e808c5695cb9\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=23.015255ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756676997,
+    "sequence" : 1802
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484738203::0489bf94-ecf9-4255-a636-658e81981d08" : {
     "eventId" : "0489bf94-ecf9-4255-a636-658e81981d08",
     "timestamp" : 1790484738203,
@@ -2833,6 +3092,13 @@
     "message" : "172.17.0.1 - - [27/Sep/2026:04:53:00 +0000] \"POST /v2/lomax-frontend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\\\(windows\\\\))\"",
     "ingestionTime" : 1790537730147,
     "sequence" : 1380
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756011274::6e21e7ce-e4db-4ddf-afbe-cde62cb1755c" : {
+    "eventId" : "6e21e7ce-e4db-4ddf-afbe-cde62cb1755c",
+    "timestamp" : 1790756011274,
+    "message" : "time=\"2026-09-30T08:13:31.071349634Z\" level=error msg=\"response completed with error\" err.code=\"name unknown\" err.detail=map[name:000000000000/us-east-1/lomax-backend] err.message=\"repository name not known to registry\" go.version=go1.20.8 http.request.host=\"floci-ecr-registry:5000\" http.request.id=8929ec7b-6237-4127-a4ee-02b45d9bc335 http.request.method=GET http.request.remoteaddr=\"172.23.0.2:41442\" http.request.uri=\"/v2/000000000000/us-east-1/lomax-backend/tags/list\" http.request.useragent=\"Java-http-client/25.0.4.1\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=1.445592ms http.response.status=404 http.response.written=144 vars.name=\"000000000000/us-east-1/lomax-backend\"",
+    "ingestionTime" : 1790756011274,
+    "sequence" : 1721
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790537724148::24421433-5fe5-45ab-8702-b267b84391e5" : {
     "eventId" : "24421433-5fe5-45ab-8702-b267b84391e5",
@@ -3044,6 +3310,13 @@
     "ingestionTime" : 1790537718595,
     "sequence" : 1241
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756614484::2794c5dd-b5c8-406c-bc17-d41e3d12830a" : {
+    "eventId" : "2794c5dd-b5c8-406c-bc17-d41e3d12830a",
+    "timestamp" : 1790756614484,
+    "message" : "time=\"2026-09-30T08:23:31.205094701Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=bf8b6d2b-e2f9-46be-8a17-824192a23519 http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:36532\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/42b8a826-3415-4b29-a005-deca443c9e2b?_state=niG3-sGGbJUjSzpSst2ijTWGF6IVSuQNIdWyGWyGoVF7Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6IjQyYjhhODI2LTM0MTUtNGIyOS1hMDA1LWRlY2E0NDNjOWUyYiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4xNjQyNzMzMzRaIn0%3D&digest=sha256%3Aa2e4e63b8580d299a98ca8fc0019feb0d49c83419715abb974111b23300db689\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=15.850702ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756614484,
+    "sequence" : 1744
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484738889::4742efd0-1ddb-4e99-9218-181db9d48078" : {
     "eventId" : "4742efd0-1ddb-4e99-9218-181db9d48078",
     "timestamp" : 1790484738889,
@@ -3127,6 +3400,13 @@
     "message" : "172.17.0.1 - - [27/Sep/2026:04:52:17 +0000] \"PUT /v2/lomax-backend/blobs/uploads/c2703cff-4e07-43ed-ad2f-c81e9ac5daf4?_state=_7m64pAPJreNEzdg40dHda8HSPZgUX2RnhfYDFLVrst7Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6ImMyNzAzY2ZmLTRlMDctNDNlZC1hZDJmLWM4MWU5YWM1ZGFmNCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0yN1QwNDo1MjoxNy42OTA2MzE0NjNaIn0%3D&digest=sha256%3Ad5e12b6358948004de8d169cfd4b07e7c557605862ad8d9ad42194eb04f93a61 HTTP/1.1\" 201 0 \"\" \"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\\\(windows\\\\))\"",
     "ingestionTime" : 1790484738703,
     "sequence" : 202
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756681320::3fe49486-20a4-49a5-a6cc-85e25a4da2c9" : {
+    "eventId" : "3fe49486-20a4-49a5-a6cc-85e25a4da2c9",
+    "timestamp" : 1790756681320,
+    "message" : "time=\"2026-09-30T08:24:34.711587897Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:3f4413e7fc618a385d61161d2a7a06e2477a2935acad41c8f9718231deb3bd5f err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=f867c5c1-cfc0-4e49-89fb-12d413af6e68 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:55466\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:3f4413e7fc618a385d61161d2a7a06e2477a2935acad41c8f9718231deb3bd5f\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=1.230674ms http.response.status=404 http.response.written=157 vars.digest=\"sha256:3f4413e7fc618a385d61161d2a7a06e2477a2935acad41c8f9718231deb3bd5f\" vars.name=lomax-frontend",
+    "ingestionTime" : 1790756681320,
+    "sequence" : 1837
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484737548::ddcc36d7-0502-404d-b74a-468dd3feb9c3" : {
     "eventId" : "ddcc36d7-0502-404d-b74a-468dd3feb9c3",
@@ -3247,12 +3527,26 @@
     "ingestionTime" : 1790486512123,
     "sequence" : 809
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756011176::bbe39232-3d66-465b-afba-7d66e5edd71f" : {
+    "eventId" : "bbe39232-3d66-465b-afba-7d66e5edd71f",
+    "timestamp" : 1790756011176,
+    "message" : "172.23.0.2 - - [30/Sep/2026:08:13:31 +0000] \"GET /v2/_catalog HTTP/1.1\" 200 34 \"\" \"Java-http-client/25.0.4.1\"",
+    "ingestionTime" : 1790756011176,
+    "sequence" : 1720
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790537727243::3de8570d-6655-4732-94ca-f6748378af73" : {
     "eventId" : "3de8570d-6655-4732-94ca-f6748378af73",
     "timestamp" : 1790537727243,
     "message" : "time=\"2026-09-27T04:52:59.992101088Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:64c8194480fee2c03e01cc561cf5542733627d2c7de493a028139677025f975c err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=eb2225d3-475f-4d2f-848f-24d922e1f4ee http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:35102\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:64c8194480fee2c03e01cc561cf5542733627d2c7de493a028139677025f975c\" http.request.useragent=\"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=\"943.577µs\" http.response.status=404 http.response.written=157 vars.digest=\"sha256:64c8194480fee2c03e01cc561cf5542733627d2c7de493a028139677025f975c\" vars.name=lomax-frontend",
     "ingestionTime" : 1790537727243,
     "sequence" : 1346
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756616971::a200b338-1578-41b7-995a-4352e3b3ab99" : {
+    "eventId" : "a200b338-1578-41b7-995a-4352e3b3ab99",
+    "timestamp" : 1790756616971,
+    "message" : "time=\"2026-09-30T08:23:31.288008017Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=88bb2983-151c-4864-8181-ca637c57d366 http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:36524\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/9da2f625-a846-4445-bb78-b3e428bb22ca?_state=z-m5MZtt2dSWrOY0fF_Pocb_nTuFO4H_5AYmKgQTvXt7Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6IjlkYTJmNjI1LWE4NDYtNDQ0NS1iYjc4LWIzZTQyOGJiMjJjYSIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4xNjQ5MjEwNzVaIn0%3D&digest=sha256%3A264ba3d8ae19c964ad7ebecdd4379a348cc08c7898b50d08d7884127a78fdb23\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=98.22232ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756616971,
+    "sequence" : 1772
   },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/27/d66de642::001790472502456::4a3f380b-145b-4c08-b476-2c931dca6926" : {
     "eventId" : "4a3f380b-145b-4c08-b476-2c931dca6926",
@@ -3324,6 +3618,13 @@
     "ingestionTime" : 1790537736473,
     "sequence" : 1457
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756616657::fbe823e5-4dce-484b-bcb2-45f9b5db2f4f" : {
+    "eventId" : "fbe823e5-4dce-484b-bcb2-45f9b5db2f4f",
+    "timestamp" : 1790756616657,
+    "message" : "time=\"2026-09-30T08:23:31.263307025Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=3743c312-13a9-4b0d-b430-8dbff8716003 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:36540\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=9.840468ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756616657,
+    "sequence" : 1768
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489283462::85bb0b41-d459-4871-ab71-95e9d329ceca" : {
     "eventId" : "85bb0b41-d459-4871-ab71-95e9d329ceca",
     "timestamp" : 1790489283462,
@@ -3365,6 +3666,13 @@
     "message" : "creating configuration files ... ok",
     "ingestionTime" : 1790623537869,
     "sequence" : 1602
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756611887::330a6175-3f82-46e5-98a7-67d3cc1a7b21" : {
+    "eventId" : "330a6175-3f82-46e5-98a7-67d3cc1a7b21",
+    "timestamp" : 1790756611887,
+    "message" : "time=\"2026-09-30T08:23:31.158148939Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:264ba3d8ae19c964ad7ebecdd4379a348cc08c7898b50d08d7884127a78fdb23 err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=0c14026a-6e45-4a98-92d2-fddf75daad38 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:36518\" http.request.uri=\"/v2/lomax-backend/blobs/sha256:264ba3d8ae19c964ad7ebecdd4379a348cc08c7898b50d08d7884127a78fdb23\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=11.830588ms http.response.status=404 http.response.written=157 vars.digest=\"sha256:264ba3d8ae19c964ad7ebecdd4379a348cc08c7898b50d08d7884127a78fdb23\" vars.name=lomax-backend",
+    "ingestionTime" : 1790756611887,
+    "sequence" : 1728
   },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/27/d66de642::001790472502095::60d2bf71-a4c1-4b13-b2ac-db6b6c66d8c5" : {
     "eventId" : "60d2bf71-a4c1-4b13-b2ac-db6b6c66d8c5",
@@ -3484,6 +3792,13 @@
     "message" : "<-- GET /cloud-explorer/aws/k8s",
     "ingestionTime" : 1790488561568,
     "sequence" : 887
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756682119::5a9fdf94-0f2a-4085-be0c-6bf4d4ae9feb" : {
+    "eventId" : "5a9fdf94-0f2a-4085-be0c-6bf4d4ae9feb",
+    "timestamp" : 1790756682119,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"PUT /v2/lomax-frontend/blobs/uploads/6d4755f2-726f-47af-9afa-fdab377cb716?_state=Tz94IM9N9E4QfknGvjnQlAqY89B_p-93qI0aYq1__Y17Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI2ZDQ3NTVmMi03MjZmLTQ3YWYtOWFmYS1mZGFiMzc3Y2I3MTYiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNzE0OTgzNjcyWiJ9&digest=sha256%3A3f4413e7fc618a385d61161d2a7a06e2477a2935acad41c8f9718231deb3bd5f HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756682119,
+    "sequence" : 1845
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485909937::ca0ee21f-7310-4dcc-8120-8085eec7efcb" : {
     "eventId" : "ca0ee21f-7310-4dcc-8120-8085eec7efcb",
@@ -3716,6 +4031,13 @@
     "ingestionTime" : 1790537727102,
     "sequence" : 1344
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756010770::a2a40ee7-80da-4dc3-a8e7-1b996d5b7740" : {
+    "eventId" : "a2a40ee7-80da-4dc3-a8e7-1b996d5b7740",
+    "timestamp" : 1790756010770,
+    "message" : "time=\"2026-09-30T08:13:30.455988648Z\" level=error msg=\"response completed with error\" err.code=\"name unknown\" err.detail=map[name:000000000000/us-east-1/lomax-frontend] err.message=\"repository name not known to registry\" go.version=go1.20.8 http.request.host=\"floci-ecr-registry:5000\" http.request.id=889f848b-84d0-4ec2-888f-0ee570e7bedb http.request.method=GET http.request.remoteaddr=\"172.23.0.2:41426\" http.request.uri=\"/v2/000000000000/us-east-1/lomax-frontend/tags/list\" http.request.useragent=\"Java-http-client/25.0.4.1\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=1.939331ms http.response.status=404 http.response.written=145 vars.name=\"000000000000/us-east-1/lomax-frontend\"",
+    "ingestionTime" : 1790756010770,
+    "sequence" : 1718
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790748657073::ed1cee5c-e242-4849-955e-75037077d8ce" : {
     "eventId" : "ed1cee5c-e242-4849-955e-75037077d8ce",
     "timestamp" : 1790748657073,
@@ -3729,6 +4051,13 @@
     "message" : "--> GET /api/clouds/azure/status \u001B[32m200\u001B[0m 9ms",
     "ingestionTime" : 1790485064098,
     "sequence" : 534
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756679686::1d325bf7-ad0a-411a-86e9-7799af2fa95e" : {
+    "eventId" : "1d325bf7-ad0a-411a-86e9-7799af2fa95e",
+    "timestamp" : 1790756679686,
+    "message" : "time=\"2026-09-30T08:24:34.682874343Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=7d16f0bc-2a12-431c-9180-a4405adb47a5 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:55466\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=12.82645ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756679686,
+    "sequence" : 1825
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484781441::5d689096-5836-4cc4-ba46-9959b0f24ae9" : {
     "eventId" : "5d689096-5836-4cc4-ba46-9959b0f24ae9",
@@ -3800,6 +4129,13 @@
     "ingestionTime" : 1790485012758,
     "sequence" : 443
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756615420::0ea0fd83-638c-4f02-9673-0c99c857c0ff" : {
+    "eventId" : "0ea0fd83-638c-4f02-9673-0c99c857c0ff",
+    "timestamp" : 1790756615420,
+    "message" : "time=\"2026-09-30T08:23:31.225816545Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=290e29a9-6365-42de-b55f-ee2cc89c7afa http.request.method=POST http.request.remoteaddr=\"172.17.0.1:36540\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=9.230422ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756615420,
+    "sequence" : 1755
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790537727911::24e41061-a6eb-4343-ad1d-08a9e831bb74" : {
     "eventId" : "24e41061-a6eb-4343-ad1d-08a9e831bb74",
     "timestamp" : 1790537727911,
@@ -3807,12 +4143,33 @@
     "ingestionTime" : 1790537727911,
     "sequence" : 1354
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756611163::89c78642-d72c-4c12-8fa5-ef49c03985bb" : {
+    "eventId" : "89c78642-d72c-4c12-8fa5-ef49c03985bb",
+    "timestamp" : 1790756611163,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"HEAD /v2/lomax-backend/blobs/sha256:4a43a40b039e72c4176e2fcbb0c08f42be7ff4e6a07722417801c9147b67bfb2 HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756611163,
+    "sequence" : 1724
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756679164::3af7de5f-18fa-46d1-9987-b28bfa7aa0af" : {
+    "eventId" : "3af7de5f-18fa-46d1-9987-b28bfa7aa0af",
+    "timestamp" : 1790756679164,
+    "message" : "time=\"2026-09-30T08:24:34.678607234Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:e72112c14215406dc7f23ef8e5cfdfddeb8662176167382ad64ec86f52b7a88e err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=4fab900a-7ced-4b4e-90f1-efed322f7f53 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:55460\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:e72112c14215406dc7f23ef8e5cfdfddeb8662176167382ad64ec86f52b7a88e\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=\"599.073µs\" http.response.status=404 http.response.written=157 vars.digest=\"sha256:e72112c14215406dc7f23ef8e5cfdfddeb8662176167382ad64ec86f52b7a88e\" vars.name=lomax-frontend",
+    "ingestionTime" : 1790756679165,
+    "sequence" : 1821
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485102577::228a510b-5c98-4e73-b974-d105a052fc51" : {
     "eventId" : "228a510b-5c98-4e73-b974-d105a052fc51",
     "timestamp" : 1790485102577,
     "message" : "<-- GET /api/clouds/aws/services/compute/resources?search=",
     "ingestionTime" : 1790485102577,
     "sequence" : 553
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756617818::4d7487ae-1095-4bcd-9348-0722bb7f2eaa" : {
+    "eventId" : "4d7487ae-1095-4bcd-9348-0722bb7f2eaa",
+    "timestamp" : 1790756617818,
+    "message" : "time=\"2026-09-30T08:23:31.400603159Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/vnd.docker.distribution.manifest.v2+json\" http.request.host=\"localhost:5100\" http.request.id=a5e9bbe5-a357-48fb-b295-fd9b087972c5 http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:36524\" http.request.uri=\"/v2/lomax-backend/manifests/1.0\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=11.966333ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756617818,
+    "sequence" : 1781
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790537732903::134ff272-231f-407d-8e33-7d8db700298b" : {
     "eventId" : "134ff272-231f-407d-8e33-7d8db700298b",
@@ -3849,12 +4206,26 @@
     "ingestionTime" : 1790623550136,
     "sequence" : 1656
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756612524::33def4fe-5ecb-4dbc-a048-745b37ab64b5" : {
+    "eventId" : "33def4fe-5ecb-4dbc-a048-745b37ab64b5",
+    "timestamp" : 1790756612524,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"HEAD /v2/lomax-backend/blobs/sha256:6b37362b3da78869050b894b799ad4df04f1f3b52774087db0d81151570244c8 HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756612524,
+    "sequence" : 1731
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484780176::6ced96ed-50ed-425e-b107-a20e881dee7c" : {
     "eventId" : "6ced96ed-50ed-425e-b107-a20e881dee7c",
     "timestamp" : 1790484780176,
     "message" : "time=\"2026-09-27T04:52:59.883299288Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:91eec2c9bb5e9a270a1cac810172d973f0609748d53d73d0e4cb2961dc429cab err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=3602e98c-b671-48c0-9e9f-9cbb161233a3 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:35114\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:91eec2c9bb5e9a270a1cac810172d973f0609748d53d73d0e4cb2961dc429cab\" http.request.useragent=\"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=7.551218ms http.response.status=404 http.response.written=157 vars.digest=\"sha256:91eec2c9bb5e9a270a1cac810172d973f0609748d53d73d0e4cb2961dc429cab\" vars.name=lomax-frontend",
     "ingestionTime" : 1790484780176,
     "sequence" : 227
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756678934::deef34c8-6895-4fd6-962a-8c0b74fb3ff9" : {
+    "eventId" : "deef34c8-6895-4fd6-962a-8c0b74fb3ff9",
+    "timestamp" : 1790756678934,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"POST /v2/lomax-frontend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756678934,
+    "sequence" : 1819
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485060306::dee150a0-1bf7-4a7c-b1c6-cba830706a28" : {
     "eventId" : "dee150a0-1bf7-4a7c-b1c6-cba830706a28",
@@ -4017,6 +4388,20 @@
     "ingestionTime" : 1790489282154,
     "sequence" : 984
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756676886::d9f95ae8-da70-4f4c-b2e5-9c1d35753000" : {
+    "eventId" : "d9f95ae8-da70-4f4c-b2e5-9c1d35753000",
+    "timestamp" : 1790756676886,
+    "message" : "time=\"2026-09-30T08:24:34.630824948Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=ae0c7981-4fb7-4992-a299-051c6ff43b8b http.request.method=POST http.request.remoteaddr=\"172.17.0.1:55476\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=16.943854ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756676886,
+    "sequence" : 1801
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756679567::27b80221-4e8f-4f08-9d42-4fd375cbf25d" : {
+    "eventId" : "27b80221-4e8f-4f08-9d42-4fd375cbf25d",
+    "timestamp" : 1790756679567,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"POST /v2/lomax-frontend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756679567,
+    "sequence" : 1824
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484738803::67aebea7-7c68-44c8-b364-6b4a1721ce71" : {
     "eventId" : "67aebea7-7c68-44c8-b364-6b4a1721ce71",
     "timestamp" : 1790484738803,
@@ -4044,6 +4429,13 @@
     "message" : "--> GET /api/clouds/aws/services/k8s/resources \u001B[32m200\u001B[0m 293ms",
     "ingestionTime" : 1790484975179,
     "sequence" : 340
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756678608::838de7ce-b646-4d3d-9b55-b5d9bdab4115" : {
+    "eventId" : "838de7ce-b646-4d3d-9b55-b5d9bdab4115",
+    "timestamp" : 1790756678608,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"PUT /v2/lomax-frontend/blobs/uploads/1986e7bd-092c-4686-a9ed-1fc3e6ca5f92?_state=Bd-tE_dzC04LWFvd8qwu6CvS-tvDShYJpr_Cv4D_tGx7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiIxOTg2ZTdiZC0wOTJjLTQ2ODYtYTllZC0xZmMzZTZjYTVmOTIiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNjE0Mjc4Nzk4WiJ9&digest=sha256%3Ad9aae54b58315e84b9c3ac5f00bad6610e0e28ad9ff28fcde694647e0be13131 HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756678608,
+    "sequence" : 1815
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485011887::790e3e79-c593-4f3a-b877-21ad48413a2b" : {
     "eventId" : "790e3e79-c593-4f3a-b877-21ad48413a2b",
@@ -4100,6 +4492,13 @@
     "message" : "time=\"2026-09-27T20:36:22.959506879Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"floci-ecr-registry:5000\" http.request.id=75e0bbd7-a1ee-4766-9863-411bb4c62b65 http.request.method=GET http.request.remoteaddr=\"172.19.0.2:53866\" http.request.uri=\"/v2/lomax-backend/manifests/1.1\" http.request.useragent=\"Java-http-client/25.0.4.1\" http.response.contenttype=\"application/vnd.oci.image.manifest.v1+json\" http.response.duration=4.297637ms http.response.status=200 http.response.written=1812",
     "ingestionTime" : 1790541383442,
     "sequence" : 1587
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756616577::2e420941-288f-4d6a-ae8a-9edf00cc4e44" : {
+    "eventId" : "2e420941-288f-4d6a-ae8a-9edf00cc4e44",
+    "timestamp" : 1790756616577,
+    "message" : "time=\"2026-09-30T08:23:31.253096355Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=67b1ec6a-2e1c-4f04-839f-5dfa1d3707e7 http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:36540\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/f52af07f-7ac3-450c-b707-0e719448a6cf?_state=g4F2UBo5x4cJzmGaCSqFCfpUx20oyGWkT2HvUVwZ9tt7Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6ImY1MmFmMDdmLTdhYzMtNDUwYy1iNzA3LTBlNzE5NDQ4YTZjZiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4yMjQxODQwOFoifQ%3D%3D&digest=sha256%3Acb36b5fd0b3bbd6cbbb0c10100c64e1fa543bcdc13b1a8275f87eb29d70ff2cc\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=13.38371ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756616577,
+    "sequence" : 1767
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489282286::999ece24-d883-4c72-bc8a-1c1e90e62b23" : {
     "eventId" : "999ece24-d883-4c72-bc8a-1c1e90e62b23",
@@ -4171,6 +4570,13 @@
     "ingestionTime" : 1790537834789,
     "sequence" : 1462
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756615928::b425bfde-8b4e-4064-8838-3cca929352f3" : {
+    "eventId" : "b425bfde-8b4e-4064-8838-3cca929352f3",
+    "timestamp" : 1790756615928,
+    "message" : "time=\"2026-09-30T08:23:31.23939714Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=c4ab0c12-fecb-49d5-8a87-6ae579594a9f http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:36540\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/029781fe-f800-46cf-9a95-59204daa2d30?_state=2jWIqT1OTgL-OeEAZ0-Wpe2GDmXeUAuCQKzHtu5Rspt7Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6IjAyOTc4MWZlLWY4MDAtNDZjZi05YTk1LTU5MjA0ZGFhMmQzMCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4yMTY5Mjg1OTZaIn0%3D&digest=sha256%3A0ecac1a43901fe6bdbe231d1c63f0b6af04c2cad21c0968ef1faff5780c08968\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=12.664903ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756615928,
+    "sequence" : 1761
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790486510465::e38b1396-3150-4ba2-8811-3cd87c13d65d" : {
     "eventId" : "e38b1396-3150-4ba2-8811-3cd87c13d65d",
     "timestamp" : 1790486510465,
@@ -4240,6 +4646,13 @@
     "message" : "--> GET /api/clouds/aws/services/serverless/resources \u001B[32m200\u001B[0m 25ms",
     "ingestionTime" : 1790485011609,
     "sequence" : 415
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756010690::1772f07f-8266-466e-a061-edc4b7666d0f" : {
+    "eventId" : "1772f07f-8266-466e-a061-edc4b7666d0f",
+    "timestamp" : 1790756010690,
+    "message" : "172.23.0.2 - - [30/Sep/2026:08:13:30 +0000] \"GET /v2/000000000000/us-east-1/lomax-frontend/tags/list HTTP/1.1\" 404 145 \"\" \"Java-http-client/25.0.4.1\"",
+    "ingestionTime" : 1790756010690,
+    "sequence" : 1717
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485060630::c3787b2d-d4ab-489b-9ea1-830320a20efb" : {
     "eventId" : "c3787b2d-d4ab-489b-9ea1-830320a20efb",
@@ -4374,6 +4787,13 @@
     "ingestionTime" : 1790489284941,
     "sequence" : 1043
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756682284::c7d1f930-6784-45bd-be56-855f4295dfef" : {
+    "eventId" : "c7d1f930-6784-45bd-be56-855f4295dfef",
+    "timestamp" : 1790756682284,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"PUT /v2/lomax-frontend/blobs/uploads/5c68ceed-b69b-4190-8392-c39a9b573ba5?_state=pAVBxZ56EIPsuIkvVqNUypI1kUqFGa-n51Oi2LPLwwp7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI1YzY4Y2VlZC1iNjliLTQxOTAtODM5Mi1jMzlhOWI1NzNiYTUiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNjgzNjk4MjQxWiJ9&digest=sha256%3Ae72112c14215406dc7f23ef8e5cfdfddeb8662176167382ad64ec86f52b7a88e HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756682284,
+    "sequence" : 1847
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790486504324::ea979c08-ff7d-4087-9e79-46f08078db8c" : {
     "eventId" : "ea979c08-ff7d-4087-9e79-46f08078db8c",
     "timestamp" : 1790486504324,
@@ -4415,6 +4835,13 @@
     "message" : "<-- GET /api/clouds/aws/services/logs/resources",
     "ingestionTime" : 1790485417050,
     "sequence" : 684
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756680079::012cd02c-bb41-4210-98bc-599ae74306c1" : {
+    "eventId" : "012cd02c-bb41-4210-98bc-599ae74306c1",
+    "timestamp" : 1790756680079,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"POST /v2/lomax-frontend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756680079,
+    "sequence" : 1828
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790537834934::848b63e1-153e-4d12-b513-49c331f906ff" : {
     "eventId" : "848b63e1-153e-4d12-b513-49c331f906ff",
@@ -4535,6 +4962,13 @@
     "ingestionTime" : 1790488566557,
     "sequence" : 913
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756680172::174bbf8e-59f1-43e1-aaa9-644a8368ecb3" : {
+    "eventId" : "174bbf8e-59f1-43e1-aaa9-644a8368ecb3",
+    "timestamp" : 1790756680172,
+    "message" : "time=\"2026-09-30T08:24:34.694549362Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=bf5582b6-88d6-4044-88bd-af8facc0edb6 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:55466\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=11.334563ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756680172,
+    "sequence" : 1829
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485012880::7f5bb6b9-6d86-48e8-9489-62d218499944" : {
     "eventId" : "7f5bb6b9-6d86-48e8-9489-62d218499944",
     "timestamp" : 1790485012880,
@@ -4625,6 +5059,13 @@
     "message" : "--> GET /api/clouds/aws/status \u001B[32m200\u001B[0m 0ms",
     "ingestionTime" : 1790484974777,
     "sequence" : 324
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756678768::aa6dfd9e-f79f-40f6-9a15-3ff5dd4db3ff" : {
+    "eventId" : "aa6dfd9e-f79f-40f6-9a15-3ff5dd4db3ff",
+    "timestamp" : 1790756678768,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"PUT /v2/lomax-frontend/blobs/uploads/5d067f38-fc37-4c11-9088-c199c0fa94d9?_state=ycHvH4liJTbhwQceSPTdGDkCGs7ZT3tmDRG4RQFem4F7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI1ZDA2N2YzOC1mYzM3LTRjMTEtOTA4OC1jMTk5YzBmYTk0ZDkiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNTg5NDUxNTM5WiJ9&digest=sha256%3Ae2de96513ba9eb53b431787ec8a65cdde380ac4772a3e4c4b714dcfde2a102b5 HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756678768,
+    "sequence" : 1817
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790488561645::29c520cb-2234-4957-8a6d-c761ac478db4" : {
     "eventId" : "29c520cb-2234-4957-8a6d-c761ac478db4",
@@ -4801,6 +5242,13 @@
     "ingestionTime" : 1790489287143,
     "sequence" : 1087
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756617642::74d1b76a-87ab-4cd3-a458-882041b18354" : {
+    "eventId" : "74d1b76a-87ab-4cd3-a458-882041b18354",
+    "timestamp" : 1790756617642,
+    "message" : "time=\"2026-09-30T08:23:31.388308007Z\" level=error msg=\"response completed with error\" err.code=\"manifest unknown\" err.detail=\"unknown tag=1.0\" err.message=\"manifest unknown\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=b62582f5-c0db-46d1-a322-a6e9c6188e8d http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:36524\" http.request.uri=\"/v2/lomax-backend/manifests/1.0\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=\"592.582µs\" http.response.status=404 http.response.written=93 vars.name=lomax-backend vars.reference=1.0",
+    "ingestionTime" : 1790756617642,
+    "sequence" : 1779
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790484974923::4d5207de-3e6e-41c9-a2cb-b756ad180524" : {
     "eventId" : "4d5207de-3e6e-41c9-a2cb-b756ad180524",
     "timestamp" : 1790484974923,
@@ -4843,12 +5291,33 @@
     "ingestionTime" : 1790485011511,
     "sequence" : 412
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756011496::c8e70bae-6700-4d2a-be46-35eca71e11a1" : {
+    "eventId" : "c8e70bae-6700-4d2a-be46-35eca71e11a1",
+    "timestamp" : 1790756011496,
+    "message" : "172.23.0.2 - - [30/Sep/2026:08:13:31 +0000] \"GET /v2/000000000000/us-east-1/lomax-backend/tags/list HTTP/1.1\" 404 144 \"\" \"Java-http-client/25.0.4.1\"",
+    "ingestionTime" : 1790756011496,
+    "sequence" : 1722
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790486512538::b210a402-80fd-4069-85e5-a6170f981a28" : {
     "eventId" : "b210a402-80fd-4069-85e5-a6170f981a28",
     "timestamp" : 1790486512538,
     "message" : "--> GET /api/clouds/aws/services \u001B[32m200\u001B[0m 0ms",
     "ingestionTime" : 1790486512538,
     "sequence" : 820
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756615849::ff1029cf-7f0e-43f1-8b4c-e50d4d5aa2d5" : {
+    "eventId" : "ff1029cf-7f0e-43f1-8b4c-e50d4d5aa2d5",
+    "timestamp" : 1790756615849,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"PUT /v2/lomax-backend/blobs/uploads/029781fe-f800-46cf-9a95-59204daa2d30?_state=2jWIqT1OTgL-OeEAZ0-Wpe2GDmXeUAuCQKzHtu5Rspt7Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6IjAyOTc4MWZlLWY4MDAtNDZjZi05YTk1LTU5MjA0ZGFhMmQzMCIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4yMTY5Mjg1OTZaIn0%3D&digest=sha256%3A0ecac1a43901fe6bdbe231d1c63f0b6af04c2cad21c0968ef1faff5780c08968 HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756615849,
+    "sequence" : 1760
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756613446::6d9b072e-7ae5-418c-9827-72b0830f5050" : {
+    "eventId" : "6d9b072e-7ae5-418c-9827-72b0830f5050",
+    "timestamp" : 1790756613446,
+    "message" : "time=\"2026-09-30T08:23:31.187010794Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=a16d92b2-adb0-4494-8216-ec7a9b7c3832 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:36518\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=26.58801ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756613446,
+    "sequence" : 1738
   },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/27/f8c05a5d::001790481392400::91e4cfe9-b3c6-4dd9-b07b-980c45ccaa33" : {
     "eventId" : "91e4cfe9-b3c6-4dd9-b07b-980c45ccaa33",
@@ -4877,6 +5346,13 @@
     "message" : "172.17.0.1 - - [27/Sep/2026:04:53:00 +0000] \"PUT /v2/lomax-frontend/blobs/uploads/55d4ef2a-3f86-40a5-acbc-2dfa1a5d6693?_state=vLsxID-5PPphzaV2nOOf6Qusll-uE9Ej9Y003Kusvgp7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI1NWQ0ZWYyYS0zZjg2LTQwYTUtYWNiYy0yZGZhMWE1ZDY2OTMiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMjdUMDQ6NTM6MDAuMDQ4NDA0NzkzWiJ9&digest=sha256%3A3f4413e7fc618a385d61161d2a7a06e2477a2935acad41c8f9718231deb3bd5f HTTP/1.1\" 201 0 \"\" \"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\\\(windows\\\\))\"",
     "ingestionTime" : 1790484781662,
     "sequence" : 291
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756617430::a7228b36-7eb9-405e-923b-9cf0c1acaad3" : {
+    "eventId" : "a7228b36-7eb9-405e-923b-9cf0c1acaad3",
+    "timestamp" : 1790756617430,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"PUT /v2/lomax-backend/blobs/uploads/08fa5bcc-1463-4c06-bd02-0e64f7e777c5?_state=KBq84ImCbh_1VSx1_dFVkwa6riHXue7KxI-o1Q-rhr17Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6IjA4ZmE1YmNjLTE0NjMtNGMwNi1iZDAyLTBlNjRmN2U3NzdjNSIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4yMzI2MTEyMTJaIn0%3D&digest=sha256%3Ad5e12b6358948004de8d169cfd4b07e7c557605862ad8d9ad42194eb04f93a61 HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756617430,
+    "sequence" : 1777
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489287807::9983bff6-9c38-4567-961d-4ef8c44e5027" : {
     "eventId" : "9983bff6-9c38-4567-961d-4ef8c44e5027",
@@ -4962,6 +5438,13 @@
     "ingestionTime" : 1790485147947,
     "sequence" : 624
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756677756::d7b7f794-013d-4be0-b4a3-a77ce3ab3013" : {
+    "eventId" : "d7b7f794-013d-4be0-b4a3-a77ce3ab3013",
+    "timestamp" : 1790756677756,
+    "message" : "time=\"2026-09-30T08:24:34.665811168Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:64c8194480fee2c03e01cc561cf5542733627d2c7de493a028139677025f975c err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=41b12365-1132-4ec7-8b6d-bb631470a998 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:55460\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:64c8194480fee2c03e01cc561cf5542733627d2c7de493a028139677025f975c\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=\"378.74µs\" http.response.status=404 http.response.written=157 vars.digest=\"sha256:64c8194480fee2c03e01cc561cf5542733627d2c7de493a028139677025f975c\" vars.name=lomax-frontend",
+    "ingestionTime" : 1790756677756,
+    "sequence" : 1810
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484737713::07ab7c99-e9f6-4bbf-9039-1ff5cc14a95a" : {
     "eventId" : "07ab7c99-e9f6-4bbf-9039-1ff5cc14a95a",
     "timestamp" : 1790484737713,
@@ -5031,6 +5514,13 @@
     "message" : "<-- GET /api/ec2/elastic-ips",
     "ingestionTime" : 1790485024881,
     "sequence" : 472
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756677939::7eaf7eb5-10da-46c6-a32f-5bfe809a306e" : {
+    "eventId" : "7eaf7eb5-10da-46c6-a32f-5bfe809a306e",
+    "timestamp" : 1790756677939,
+    "message" : "time=\"2026-09-30T08:24:34.66634063Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:e76228b47809e8a4bd37a6ba52a04d282d8c72ddf0ff9e8b83fd6318631abd52 err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=54090765-85ce-4b8f-8f2f-54d64597d1c1 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:55460\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:e76228b47809e8a4bd37a6ba52a04d282d8c72ddf0ff9e8b83fd6318631abd52\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=\"327.716µs\" http.response.status=404 http.response.written=157 vars.digest=\"sha256:e76228b47809e8a4bd37a6ba52a04d282d8c72ddf0ff9e8b83fd6318631abd52\" vars.name=lomax-frontend",
+    "ingestionTime" : 1790756677939,
+    "sequence" : 1812
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485007692::debe85fd-31bb-4177-a513-5f7c39adf0cb" : {
     "eventId" : "debe85fd-31bb-4177-a513-5f7c39adf0cb",
@@ -5200,6 +5690,20 @@
     "ingestionTime" : 1790489287956,
     "sequence" : 1103
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756612307::8cdc92e7-6d64-43f1-9927-4520699b3d08" : {
+    "eventId" : "8cdc92e7-6d64-43f1-9927-4520699b3d08",
+    "timestamp" : 1790756612307,
+    "message" : "time=\"2026-09-30T08:23:31.158188412Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:6b37362b3da78869050b894b799ad4df04f1f3b52774087db0d81151570244c8 err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=48c18988-ddb5-47ce-8cb4-d4b7f8c4b847 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:36524\" http.request.uri=\"/v2/lomax-backend/blobs/sha256:6b37362b3da78869050b894b799ad4df04f1f3b52774087db0d81151570244c8\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=11.871906ms http.response.status=404 http.response.written=157 vars.digest=\"sha256:6b37362b3da78869050b894b799ad4df04f1f3b52774087db0d81151570244c8\" vars.name=lomax-backend",
+    "ingestionTime" : 1790756612307,
+    "sequence" : 1730
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756612734::b689c800-beed-413a-b44e-f4cb80868ed3" : {
+    "eventId" : "b689c800-beed-413a-b44e-f4cb80868ed3",
+    "timestamp" : 1790756612734,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"HEAD /v2/lomax-backend/blobs/sha256:3d9fb74714202c0d9ba7af2ca3e226fec5647f73cefc725b7ff37338bc1b59ec HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756612734,
+    "sequence" : 1732
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485107348::8cf4d668-343c-475c-a154-4b2eea23bdc2" : {
     "eventId" : "8cf4d668-343c-475c-a154-4b2eea23bdc2",
     "timestamp" : 1790485107348,
@@ -5228,6 +5732,13 @@
     "ingestionTime" : 1790537722746,
     "sequence" : 1286
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756680874::5cbd084c-7cfb-4f0a-80cb-938c55971584" : {
+    "eventId" : "5cbd084c-7cfb-4f0a-80cb-938c55971584",
+    "timestamp" : 1790756680874,
+    "message" : "time=\"2026-09-30T08:24:34.697003653Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=ecc0a2cd-e112-4df7-ae14-287a3d543ca1 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:55476\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=11.250657ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756680874,
+    "sequence" : 1833
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489287655::bfd8e605-3d9e-41ec-8027-6bcee0f1508f" : {
     "eventId" : "bfd8e605-3d9e-41ec-8027-6bcee0f1508f",
     "timestamp" : 1790489287655,
@@ -5241,6 +5752,13 @@
     "message" : "172.17.0.1 - - [27/Sep/2026:19:43:49 +0000] \"HEAD /v2/lomax-frontend/blobs/sha256:64c8194480fee2c03e01cc561cf5542733627d2c7de493a028139677025f975c HTTP/1.1\" 200 0 \"\" \"buildkit/v0.33\"",
     "ingestionTime" : 1790538230501,
     "sequence" : 1504
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756613228::d72964c8-2243-46b8-9198-fe821f2af44a" : {
+    "eventId" : "d72964c8-2243-46b8-9198-fe821f2af44a",
+    "timestamp" : 1790756613228,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"POST /v2/lomax-backend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756613228,
+    "sequence" : 1736
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790488568305::a76bf046-4bb1-4966-a9e4-5ca2158da4ea" : {
     "eventId" : "a76bf046-4bb1-4966-a9e4-5ca2158da4ea",
@@ -5550,6 +6068,13 @@
     "ingestionTime" : 1790489291547,
     "sequence" : 1165
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756682932::7bbe0bc9-ac73-4149-bcab-a8b009a0f668" : {
+    "eventId" : "7bbe0bc9-ac73-4149-bcab-a8b009a0f668",
+    "timestamp" : 1790756682932,
+    "message" : "time=\"2026-09-30T08:24:34.772139017Z\" level=error msg=\"response completed with error\" err.code=\"manifest unknown\" err.detail=\"unknown tag=1.0\" err.message=\"manifest unknown\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=a0ac81ab-be9c-4377-9e43-6bdd69018a0e http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:55460\" http.request.uri=\"/v2/lomax-frontend/manifests/1.0\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=\"417.329µs\" http.response.status=404 http.response.written=93 vars.name=lomax-frontend vars.reference=1.0",
+    "ingestionTime" : 1790756682932,
+    "sequence" : 1849
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485012376::e8bde11e-9d6e-492d-b4ec-32977d8c20e7" : {
     "eventId" : "e8bde11e-9d6e-492d-b4ec-32977d8c20e7",
     "timestamp" : 1790485012376,
@@ -5690,6 +6215,13 @@
     "ingestionTime" : 1790484987702,
     "sequence" : 380
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756613072::ba7fdb1c-feb6-4566-9495-8f7e5e649273" : {
+    "eventId" : "ba7fdb1c-feb6-4566-9495-8f7e5e649273",
+    "timestamp" : 1790756613072,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"POST /v2/lomax-backend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756613072,
+    "sequence" : 1734
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790488559404::437e366d-c5fe-4a59-9567-d30c87786d22" : {
     "eventId" : "437e366d-c5fe-4a59-9567-d30c87786d22",
     "timestamp" : 1790488559404,
@@ -5704,12 +6236,26 @@
     "ingestionTime" : 1790537722967,
     "sequence" : 1289
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756676042::233bd8cf-7487-4899-a8e6-11c95eb42b79" : {
+    "eventId" : "233bd8cf-7487-4899-a8e6-11c95eb42b79",
+    "timestamp" : 1790756676042,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"POST /v2/lomax-frontend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756676042,
+    "sequence" : 1793
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485012172::f51995fd-e5c3-4022-8581-a734ab9a6a30" : {
     "eventId" : "f51995fd-e5c3-4022-8581-a734ab9a6a30",
     "timestamp" : 1790485012172,
     "message" : "<-- GET /api/clouds/aws/services/kms/resources",
     "ingestionTime" : 1790485012172,
     "sequence" : 434
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756681675::ea75b1fa-b322-4537-b51c-b7e018a1c8c4" : {
+    "eventId" : "ea75b1fa-b322-4537-b51c-b7e018a1c8c4",
+    "timestamp" : 1790756681675,
+    "message" : "time=\"2026-09-30T08:24:34.721253017Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=4c54424d-2a4f-4f00-bd1f-ff89de855077 http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:55466\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/6c8a36fa-f060-467b-844f-684f9ff0611c?_state=etfYU5YCTeBeM7MeQp7Dp0TzRzShH8Ssj2L492AKosJ7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI2YzhhMzZmYS1mMDYwLTQ2N2ItODQ0Zi02ODRmOWZmMDYxMWMiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNjg3MjA2Mjg0WiJ9&digest=sha256%3A43fd84858a188299702a87252fac260623d3594ff8ce2c73a1be76b3b6cbda5d\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=9.307894ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756681675,
+    "sequence" : 1841
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484780615::2272feae-3d9c-4a51-b84b-359990c67ab6" : {
     "eventId" : "2272feae-3d9c-4a51-b84b-359990c67ab6",
@@ -5738,6 +6284,13 @@
     "message" : "time=\"2026-09-27T19:43:28.020492301Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"floci-ecr-registry:5000\" http.request.id=0a698a35-2f2f-4e6f-b5f5-e28ec03e120e http.request.method=GET http.request.remoteaddr=\"172.19.0.2:42664\" http.request.uri=\"/v2/\" http.request.useragent=\"curl/8.21.0\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=\"887.476µs\" http.response.status=200 http.response.written=2",
     "ingestionTime" : 1790538208187,
     "sequence" : 1490
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756681404::f8f031c4-db18-4d22-8dea-eb925d9bbb6f" : {
+    "eventId" : "f8f031c4-db18-4d22-8dea-eb925d9bbb6f",
+    "timestamp" : 1790756681404,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"PUT /v2/lomax-frontend/blobs/uploads/6d551eea-8b27-4cd3-b593-4aea63318c40?_state=AysEfxoIyZLi01ClPjJqMRzBnbLQe5h1ZOSRnq6L9bd7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI2ZDU1MWVlYS04YjI3LTRjZDMtYjU5My00YWVhNjMzMThjNDAiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNjc2MjI5OTk1WiJ9&digest=sha256%3Ae76228b47809e8a4bd37a6ba52a04d282d8c72ddf0ff9e8b83fd6318631abd52 HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756681404,
+    "sequence" : 1838
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489286089::c8e0cd31-9319-4131-be8d-6c6b92777d00" : {
     "eventId" : "c8e0cd31-9319-4131-be8d-6c6b92777d00",
@@ -5858,6 +6411,13 @@
     "ingestionTime" : 1790484992622,
     "sequence" : 381
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756680988::d58721a0-a0a7-4b99-b520-5b79881d4164" : {
+    "eventId" : "d58721a0-a0a7-4b99-b520-5b79881d4164",
+    "timestamp" : 1790756680988,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"PUT /v2/lomax-frontend/blobs/uploads/4452baff-5218-4103-afa6-301340b718d2?_state=m5SwbkM41clUKU-Dn3s-QzJ0a_XlNxaw7HZbGkLAbgZ7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI0NDUyYmFmZi01MjE4LTQxMDMtYWZhNi0zMDEzNDBiNzE4ZDIiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNjcwNzc4MjRaIn0%3D&digest=sha256%3A64c8194480fee2c03e01cc561cf5542733627d2c7de493a028139677025f975c HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756680989,
+    "sequence" : 1834
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790488476094::aa8ef715-801d-47a1-8f7b-faf95010eea6" : {
     "eventId" : "aa8ef715-801d-47a1-8f7b-faf95010eea6",
     "timestamp" : 1790488476094,
@@ -5948,6 +6508,13 @@
     "message" : "<-- GET /api/clouds/aws/status",
     "ingestionTime" : 1790485075583,
     "sequence" : 539
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756677550::d9b4208a-8e0c-4d0b-a805-8cfcf51f86af" : {
+    "eventId" : "d9b4208a-8e0c-4d0b-a805-8cfcf51f86af",
+    "timestamp" : 1790756677550,
+    "message" : "time=\"2026-09-30T08:24:34.665152385Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:9a9a644fdd6a3681d43dace44c8cfef374cfd7b24f433113379ea483692498a8 err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=aadcfc3d-648e-45b3-b782-6d259ada1cc4 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:55460\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:9a9a644fdd6a3681d43dace44c8cfef374cfd7b24f433113379ea483692498a8\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=\"951.412µs\" http.response.status=404 http.response.written=157 vars.digest=\"sha256:9a9a644fdd6a3681d43dace44c8cfef374cfd7b24f433113379ea483692498a8\" vars.name=lomax-frontend",
+    "ingestionTime" : 1790756677550,
+    "sequence" : 1808
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790487149223::1e8ecc62-87bd-4616-a704-c426d1db59a6" : {
     "eventId" : "1e8ecc62-87bd-4616-a704-c426d1db59a6",
@@ -6096,6 +6663,13 @@
     "ingestionTime" : 1790484974692,
     "sequence" : 321
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756683107::04ce7f47-9d94-4c80-b523-f43311f64626" : {
+    "eventId" : "04ce7f47-9d94-4c80-b523-f43311f64626",
+    "timestamp" : 1790756683107,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"PUT /v2/lomax-frontend/manifests/1.0 HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756683107,
+    "sequence" : 1851
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485064039::108a644c-f32c-441d-a4f9-190f00779a3b" : {
     "eventId" : "108a644c-f32c-441d-a4f9-190f00779a3b",
     "timestamp" : 1790485064039,
@@ -6131,6 +6705,13 @@
     "ingestionTime" : 1790537728620,
     "sequence" : 1363
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756615345::98fde6f0-9db4-4c71-91ef-3be635b730b3" : {
+    "eventId" : "98fde6f0-9db4-4c71-91ef-3be635b730b3",
+    "timestamp" : 1790756615345,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"POST /v2/lomax-backend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756615345,
+    "sequence" : 1754
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484737444::4d4cf029-04ba-4129-8b64-a20703d7e5e4" : {
     "eventId" : "4d4cf029-04ba-4129-8b64-a20703d7e5e4",
     "timestamp" : 1790484737444,
@@ -6144,6 +6725,13 @@
     "message" : "2026-09-28 19:30:35.885 UTC [67] LOG:  checkpoint starting: time",
     "ingestionTime" : 1790623835902,
     "sequence" : 1680
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756675230::25021ce4-3823-4631-82d2-d0a7b3293e07" : {
+    "eventId" : "25021ce4-3823-4631-82d2-d0a7b3293e07",
+    "timestamp" : 1790756675230,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"HEAD /v2/lomax-frontend/blobs/sha256:d9aae54b58315e84b9c3ac5f00bad6610e0e28ad9ff28fcde694647e0be13131 HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756675230,
+    "sequence" : 1787
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485012307::9829f0a1-33db-47a8-b3a5-d1623487dc7d" : {
     "eventId" : "9829f0a1-33db-47a8-b3a5-d1623487dc7d",
@@ -6165,6 +6753,13 @@
     "message" : "time=\"2026-09-27T19:43:49.807268415Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=0beed3cc-09c5-4c6f-a2a3-2592999cafab http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:48514\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:6c53d0b2a666ed8f8fad8d9982e30cf24eb085036c17b27591665ca25e1ba40c\" http.request.useragent=\"buildkit/v0.33\" http.response.contenttype=\"application/octet-stream\" http.response.duration=3.333677ms http.response.status=200 http.response.written=0",
     "ingestionTime" : 1790538230041,
     "sequence" : 1500
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756615055::da0533e4-6dd0-4063-968e-007f8ceab84f" : {
+    "eventId" : "da0533e4-6dd0-4063-968e-007f8ceab84f",
+    "timestamp" : 1790756615055,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"HEAD /v2/lomax-backend/blobs/sha256:cb36b5fd0b3bbd6cbbb0c10100c64e1fa543bcdc13b1a8275f87eb29d70ff2cc HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756615055,
+    "sequence" : 1751
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489284605::22d60d44-6874-456d-837d-a8ac68b546be" : {
     "eventId" : "22d60d44-6874-456d-837d-a8ac68b546be",
@@ -6369,6 +6964,13 @@
     "ingestionTime" : 1790537725476,
     "sequence" : 1322
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756681921::51bb112f-a8e7-4597-ae3e-f1e31c71ea77" : {
+    "eventId" : "51bb112f-a8e7-4597-ae3e-f1e31c71ea77",
+    "timestamp" : 1790756681921,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"POST /v2/lomax-frontend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756681921,
+    "sequence" : 1843
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484737965::adb1fe27-d7ae-4b46-af22-19e6639760d8" : {
     "eventId" : "adb1fe27-d7ae-4b46-af22-19e6639760d8",
     "timestamp" : 1790484737965,
@@ -6459,6 +7061,13 @@
     "message" : "--> GET /api/clouds/aws/services/secrets/resources \u001B[32m200\u001B[0m 22ms",
     "ingestionTime" : 1790488568346,
     "sequence" : 952
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756614712::08c92814-eadd-4bae-9ddb-eaecc3dac450" : {
+    "eventId" : "08c92814-eadd-4bae-9ddb-eaecc3dac450",
+    "timestamp" : 1790756614712,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"PUT /v2/lomax-backend/blobs/uploads/4df72ed5-1d3c-4aac-9b1c-f5c923d3d95e?_state=PbJOQAsCwZTBTQxL4Fs_Av-Iogdxu-WigTWf3eSBm_h7Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6IjRkZjcyZWQ1LTFkM2MtNGFhYy05YjFjLWY1YzkyM2QzZDk1ZSIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4xNjQ0NjcxN1oifQ%3D%3D&digest=sha256%3A3d9fb74714202c0d9ba7af2ca3e226fec5647f73cefc725b7ff37338bc1b59ec HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756614712,
+    "sequence" : 1747
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790486503923::68f36ae6-11eb-48e8-a1b5-f0640b93436d" : {
     "eventId" : "68f36ae6-11eb-48e8-a1b5-f0640b93436d",
@@ -6586,6 +7195,13 @@
     "ingestionTime" : 1790484974899,
     "sequence" : 329
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756678687::edae4215-062b-4d72-96f9-82e2e75e9c8f" : {
+    "eventId" : "edae4215-062b-4d72-96f9-82e2e75e9c8f",
+    "timestamp" : 1790756678687,
+    "message" : "time=\"2026-09-30T08:24:34.674313557Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=879a4a21-03cd-4426-b958-4f496d66210f http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:55476\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/5d067f38-fc37-4c11-9088-c199c0fa94d9?_state=ycHvH4liJTbhwQceSPTdGDkCGs7ZT3tmDRG4RQFem4F7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI1ZDA2N2YzOC1mYzM3LTRjMTEtOTA4OC1jMTk5YzBmYTk0ZDkiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNTg5NDUxNTM5WiJ9&digest=sha256%3Ae2de96513ba9eb53b431787ec8a65cdde380ac4772a3e4c4b714dcfde2a102b5\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=42.823059ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756678687,
+    "sequence" : 1816
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484738130::2354fdc4-e9fe-43ec-b2d1-763517d11249" : {
     "eventId" : "2354fdc4-e9fe-43ec-b2d1-763517d11249",
     "timestamp" : 1790484738130,
@@ -6634,6 +7250,13 @@
     "message" : "172.17.0.1 - - [27/Sep/2026:04:52:17 +0000] \"POST /v2/lomax-backend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\\\(windows\\\\))\"",
     "ingestionTime" : 1790489284749,
     "sequence" : 1039
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756614637::21100f37-f1a7-446c-ab7c-e0850c23e341" : {
+    "eventId" : "21100f37-f1a7-446c-ab7c-e0850c23e341",
+    "timestamp" : 1790756614637,
+    "message" : "time=\"2026-09-30T08:23:31.214257086Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=766dfc59-727d-4927-a95e-b31d40cc03ba http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:36540\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/4df72ed5-1d3c-4aac-9b1c-f5c923d3d95e?_state=PbJOQAsCwZTBTQxL4Fs_Av-Iogdxu-WigTWf3eSBm_h7Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6IjRkZjcyZWQ1LTFkM2MtNGFhYy05YjFjLWY1YzkyM2QzZDk1ZSIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4xNjQ0NjcxN1oifQ%3D%3D&digest=sha256%3A3d9fb74714202c0d9ba7af2ca3e226fec5647f73cefc725b7ff37338bc1b59ec\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=25.044674ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756614637,
+    "sequence" : 1746
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489282198::50001e3a-1e02-4bd2-9ce0-44f550d10739" : {
     "eventId" : "50001e3a-1e02-4bd2-9ce0-44f550d10739",
@@ -6803,6 +7426,13 @@
     "ingestionTime" : 1790474491379,
     "sequence" : 75
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756682372::3382005e-a4bc-42ae-9eff-7003b2566dc0" : {
+    "eventId" : "3382005e-a4bc-42ae-9eff-7003b2566dc0",
+    "timestamp" : 1790756682372,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"HEAD /v2/lomax-frontend/manifests/1.0 HTTP/1.1\" 404 93 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756682372,
+    "sequence" : 1848
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790748659421::d14daf91-5559-4c62-a64c-4ef032edfb42" : {
     "eventId" : "d14daf91-5559-4c62-a64c-4ef032edfb42",
     "timestamp" : 1790748659421,
@@ -6858,6 +7488,13 @@
     "message" : "time=\"2026-09-27T19:37:59.261343705Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=03b3f22d-f6a5-43ee-b67a-427bc7029b5b http.request.method=GET http.request.remoteaddr=\"172.17.0.1:54336\" http.request.uri=\"/v2/lomax-backend/manifests/1.0\" http.request.useragent=\"curl/8.21.0\" http.response.contenttype=\"application/vnd.docker.distribution.manifest.v1+prettyjws\" http.response.duration=94.23646ms http.response.status=200 http.response.written=12223",
     "ingestionTime" : 1790537879270,
     "sequence" : 1487
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756614872::89565f3e-ed1d-42f2-8988-dfdc9d8e92f8" : {
+    "eventId" : "89565f3e-ed1d-42f2-8988-dfdc9d8e92f8",
+    "timestamp" : 1790756614872,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"HEAD /v2/lomax-backend/blobs/sha256:0ecac1a43901fe6bdbe231d1c63f0b6af04c2cad21c0968ef1faff5780c08968 HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756614872,
+    "sequence" : 1749
   },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/28/614b7d5e::001790623542536::78bef413-eee3-4279-8323-9773f6dc470b" : {
     "eventId" : "78bef413-eee3-4279-8323-9773f6dc470b",
@@ -6999,6 +7636,13 @@
     "ingestionTime" : 1790485059984,
     "sequence" : 502
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756611700::0eab9d42-af0e-4e14-8957-6cfee2e0206d" : {
+    "eventId" : "0eab9d42-af0e-4e14-8957-6cfee2e0206d",
+    "timestamp" : 1790756611700,
+    "message" : "time=\"2026-09-30T08:23:31.158054564Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:a2e4e63b8580d299a98ca8fc0019feb0d49c83419715abb974111b23300db689 err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=d9947543-2e6a-4e0b-9c0b-65ec655431aa http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:36552\" http.request.uri=\"/v2/lomax-backend/blobs/sha256:a2e4e63b8580d299a98ca8fc0019feb0d49c83419715abb974111b23300db689\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=11.489786ms http.response.status=404 http.response.written=157 vars.digest=\"sha256:a2e4e63b8580d299a98ca8fc0019feb0d49c83419715abb974111b23300db689\" vars.name=lomax-backend",
+    "ingestionTime" : 1790756611700,
+    "sequence" : 1727
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489292791::c568358c-e0ec-4a2f-a08e-3b3e9f736622" : {
     "eventId" : "c568358c-e0ec-4a2f-a08e-3b3e9f736622",
     "timestamp" : 1790489292791,
@@ -7040,6 +7684,13 @@
     "message" : "time=\"2026-09-27T04:53:00.286935805Z\" level=error msg=\"response completed with error\" err.code=\"manifest unknown\" err.detail=\"unknown tag=1.0\" err.message=\"manifest unknown\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=05478424-4e1f-4475-b753-300b17cd0139 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:35140\" http.request.uri=\"/v2/lomax-frontend/manifests/1.0\" http.request.useragent=\"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=1.749943ms http.response.status=404 http.response.written=93 vars.name=lomax-frontend vars.reference=1.0",
     "ingestionTime" : 1790484781929,
     "sequence" : 302
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756614304::b29317eb-9b80-4754-9773-3bb65e7e0175" : {
+    "eventId" : "b29317eb-9b80-4754-9773-3bb65e7e0175",
+    "timestamp" : 1790756614304,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"POST /v2/lomax-backend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756614304,
+    "sequence" : 1742
   },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/28/614b7d5e::001790623540575::d0bce761-3d4d-4888-8cd0-b8bcc342b9f1" : {
     "eventId" : "d0bce761-3d4d-4888-8cd0-b8bcc342b9f1",
@@ -7229,6 +7880,13 @@
     "message" : "<-- GET /api/clouds",
     "ingestionTime" : 1790484984197,
     "sequence" : 371
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756678338::f2e7536a-6b84-4421-beaa-23881f846653" : {
+    "eventId" : "f2e7536a-6b84-4421-beaa-23881f846653",
+    "timestamp" : 1790756678338,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"HEAD /v2/lomax-frontend/blobs/sha256:e76228b47809e8a4bd37a6ba52a04d282d8c72ddf0ff9e8b83fd6318631abd52 HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756678338,
+    "sequence" : 1813
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489287239::36ae8ee7-6c49-484a-926d-40091f1937b4" : {
     "eventId" : "36ae8ee7-6c49-484a-926d-40091f1937b4",
@@ -7587,6 +8245,13 @@
     "ingestionTime" : 1790488567735,
     "sequence" : 937
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756614952::54835dba-3c69-4907-960b-0df42415b41d" : {
+    "eventId" : "54835dba-3c69-4907-960b-0df42415b41d",
+    "timestamp" : 1790756614952,
+    "message" : "time=\"2026-09-30T08:23:31.216386347Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:cb36b5fd0b3bbd6cbbb0c10100c64e1fa543bcdc13b1a8275f87eb29d70ff2cc err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=b3db2089-fce7-4ed0-87b4-442dad04cbb2 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:36540\" http.request.uri=\"/v2/lomax-backend/blobs/sha256:cb36b5fd0b3bbd6cbbb0c10100c64e1fa543bcdc13b1a8275f87eb29d70ff2cc\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=\"424.202µs\" http.response.status=404 http.response.written=157 vars.digest=\"sha256:cb36b5fd0b3bbd6cbbb0c10100c64e1fa543bcdc13b1a8275f87eb29d70ff2cc\" vars.name=lomax-backend",
+    "ingestionTime" : 1790756614952,
+    "sequence" : 1750
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790537726812::8e716d77-b26a-46d4-8122-eee8131d95fc" : {
     "eventId" : "8e716d77-b26a-46d4-8122-eee8131d95fc",
     "timestamp" : 1790537726812,
@@ -7600,6 +8265,13 @@
     "message" : "server started",
     "ingestionTime" : 1790623540820,
     "sequence" : 1617
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756676412::c59055e2-d53d-4843-bc5a-ffbd89a03c4b" : {
+    "eventId" : "c59055e2-d53d-4843-bc5a-ffbd89a03c4b",
+    "timestamp" : 1790756676412,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"POST /v2/lomax-frontend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756676412,
+    "sequence" : 1796
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790537724076::b018e211-c0bf-479e-bf3a-9f4d6842ace0" : {
     "eventId" : "b018e211-c0bf-479e-bf3a-9f4d6842ace0",
@@ -7677,6 +8349,13 @@
     "message" : "172.17.0.1 - - [27/Sep/2026:04:52:17 +0000] \"HEAD /v2/lomax-backend/blobs/sha256:4a43a40b039e72c4176e2fcbb0c08f42be7ff4e6a07722417801c9147b67bfb2 HTTP/1.1\" 404 157 \"\" \"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\\\(windows\\\\))\"",
     "ingestionTime" : 1790489283591,
     "sequence" : 1014
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756616811::bc937255-6931-4cb6-8aae-ec9c557b9340" : {
+    "eventId" : "bc937255-6931-4cb6-8aae-ec9c557b9340",
+    "timestamp" : 1790756616811,
+    "message" : "time=\"2026-09-30T08:23:31.281549252Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=768b8fb0-7b08-4078-b580-0af9913bb056 http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:36540\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/b8db5e4c-d0f9-4daf-9d25-64e43eb78a36?_state=mEiaMhjZcFzHGcwaBTG1PBjs0BccJQa9r1ia5kpNf6x7Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6ImI4ZGI1ZTRjLWQwZjktNGRhZi05ZDI1LTY0ZTQzZWI3OGEzNiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4yNTQwNjg2NjNaIn0%3D&digest=sha256%3Ae86b6a8d5530297cd7988d89a647b362d53b599c52ef39d89aa0c2b89b882d6c\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=15.296314ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756616811,
+    "sequence" : 1770
   },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/27/d66de642::001790472502360::dd055215-8908-4f5c-ab48-cc40db6d22fc" : {
     "eventId" : "dd055215-8908-4f5c-ab48-cc40db6d22fc",
@@ -7768,6 +8447,13 @@
     "message" : "time=\"2026-09-27T04:52:59.961628195Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:745dfb2690dd8627e1593941caccc756f14943df7930a478beb4e808c5695cb9 err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=e4af4f9e-8fc6-408b-8bee-f40a015cce34 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:35134\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:745dfb2690dd8627e1593941caccc756f14943df7930a478beb4e808c5695cb9\" http.request.useragent=\"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=\"863.871µs\" http.response.status=404 http.response.written=157 vars.digest=\"sha256:745dfb2690dd8627e1593941caccc756f14943df7930a478beb4e808c5695cb9\" vars.name=lomax-frontend",
     "ingestionTime" : 1790537726736,
     "sequence" : 1339
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756677365::32aeb7e0-6b04-48ed-a2eb-bb3d28034f6e" : {
+    "eventId" : "32aeb7e0-6b04-48ed-a2eb-bb3d28034f6e",
+    "timestamp" : 1790756677365,
+    "message" : "time=\"2026-09-30T08:24:34.663917979Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=9de694e0-e7fe-4afb-b5dd-8da7f3749037 http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:55460\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/2609c4ab-893c-426b-9271-e7e5eaa9e68b?_state=MtoUPAuQ81q3hjgz20GmcJZOrxB3bltr34Qvi_GQhVF7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiIyNjA5YzRhYi04OTNjLTQyNmItOTI3MS1lN2U1ZWFhOWU2OGIiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNjE0NDI5OTg2WiJ9&digest=sha256%3A027cf86c58fa87b8a30f6b00b70079acd1c86261e628bc04eaa29171a388007a\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=16.228138ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756677365,
+    "sequence" : 1806
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485024675::dc2b7745-70ee-43da-bfcb-ffede23da367" : {
     "eventId" : "dc2b7745-70ee-43da-bfcb-ffede23da367",
@@ -8119,6 +8805,13 @@
     "ingestionTime" : 1790623538096,
     "sequence" : 1603
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756679967::75223cef-5692-4817-b4ad-874e72d9fa7c" : {
+    "eventId" : "75223cef-5692-4817-b4ad-874e72d9fa7c",
+    "timestamp" : 1790756679967,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"POST /v2/lomax-frontend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756679967,
+    "sequence" : 1827
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790488562355::c7a8823e-d705-49e9-a7ae-f5339d30beb2" : {
     "eventId" : "c7a8823e-d705-49e9-a7ae-f5339d30beb2",
     "timestamp" : 1790488562355,
@@ -8168,12 +8861,26 @@
     "ingestionTime" : 1790485909300,
     "sequence" : 733
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756675915::bbf74d1a-4bdc-4c8c-86a2-2eb12957e18c" : {
+    "eventId" : "bbf74d1a-4bdc-4c8c-86a2-2eb12957e18c",
+    "timestamp" : 1790756675915,
+    "message" : "time=\"2026-09-30T08:24:34.612254576Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=89afdcc1-785b-4dc9-a80c-f867d8cf989a http.request.method=POST http.request.remoteaddr=\"172.17.0.1:55460\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=25.515567ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756675915,
+    "sequence" : 1792
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489287045::050e6d33-3304-4575-83f1-b5541d7177d7" : {
     "eventId" : "050e6d33-3304-4575-83f1-b5541d7177d7",
     "timestamp" : 1790489287045,
     "message" : "time=\"2026-09-27T04:52:59.916660617Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=f6488f1c-96f0-46a2-8ffa-fa06bc071083 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:35114\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/\" http.request.useragent=\"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\(windows\\))\" http.response.duration=32.676573ms http.response.status=202 http.response.written=0",
     "ingestionTime" : 1790489287045,
     "sequence" : 1085
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756675693::ea94ee37-4886-4964-b6cf-7576eb3107b8" : {
+    "eventId" : "ea94ee37-4886-4964-b6cf-7576eb3107b8",
+    "timestamp" : 1790756675693,
+    "message" : "time=\"2026-09-30T08:24:34.585382475Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:027cf86c58fa87b8a30f6b00b70079acd1c86261e628bc04eaa29171a388007a err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=1e61e976-e95b-440f-9ce6-68d41909b4b6 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:55490\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:027cf86c58fa87b8a30f6b00b70079acd1c86261e628bc04eaa29171a388007a\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=7.521978ms http.response.status=404 http.response.written=157 vars.digest=\"sha256:027cf86c58fa87b8a30f6b00b70079acd1c86261e628bc04eaa29171a388007a\" vars.name=lomax-frontend",
+    "ingestionTime" : 1790756675693,
+    "sequence" : 1790
   },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/27/d66de642::001790473402157::e4e5c0ca-6512-4688-963a-abbcbfe5c0f5" : {
     "eventId" : "e4e5c0ca-6512-4688-963a-abbcbfe5c0f5",
@@ -8238,6 +8945,13 @@
     "ingestionTime" : 1790486512572,
     "sequence" : 821
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756678529::fa856202-c9a6-4b78-9637-f833f8b26820" : {
+    "eventId" : "fa856202-c9a6-4b78-9637-f833f8b26820",
+    "timestamp" : 1790756678529,
+    "message" : "time=\"2026-09-30T08:24:34.669752371Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=caac4206-d7f1-40fb-84ed-2cfb1c2a6d8d http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:55466\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/1986e7bd-092c-4686-a9ed-1fc3e6ca5f92?_state=Bd-tE_dzC04LWFvd8qwu6CvS-tvDShYJpr_Cv4D_tGx7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiIxOTg2ZTdiZC0wOTJjLTQ2ODYtYTllZC0xZmMzZTZjYTVmOTIiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNjE0Mjc4Nzk4WiJ9&digest=sha256%3Ad9aae54b58315e84b9c3ac5f00bad6610e0e28ad9ff28fcde694647e0be13131\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=30.59247ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756678529,
+    "sequence" : 1814
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790486503877::17a93d73-145c-46e6-a789-06ccc7896432" : {
     "eventId" : "17a93d73-145c-46e6-a789-06ccc7896432",
     "timestamp" : 1790486503877,
@@ -8279,6 +8993,13 @@
     "message" : "time=\"2026-09-27T04:52:59.88907016Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=0bfadf2c-8a0c-4ff7-b95c-cef02d06c9d0 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:35102\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/?mount=sha256:44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a&from=lomax-backend\" http.request.useragent=\"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\(windows\\))\" http.response.duration=9.678291ms http.response.status=201 http.response.written=0",
     "ingestionTime" : 1790484780201,
     "sequence" : 228
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756677272::7c328339-d20c-45c7-84cc-52372a35cda6" : {
+    "eventId" : "7c328339-d20c-45c7-84cc-52372a35cda6",
+    "timestamp" : 1790756677272,
+    "message" : "time=\"2026-09-30T08:24:34.64717231Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=e9ea5d4b-c93e-4a1e-b517-5f85c6c7414a http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:55460\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/835dd46e-0d58-4aaf-a255-78701612d133?_state=Cn0gpTu4BNhrsGebHIE6MEIzZ4RLbvl8p2HuEk8JqQR7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI4MzVkZDQ2ZS0wZDU4LTRhYWYtYTI1NS03ODcwMTYxMmQxMzMiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNTg5NDYyMTI1WiJ9&digest=sha256%3A6c53d0b2a666ed8f8fad8d9982e30cf24eb085036c17b27591665ca25e1ba40c\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=19.248154ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756677272,
+    "sequence" : 1805
   },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/27/f8c05a5d::001790474491370::355dc31e-dfe3-4505-9e03-e8b79ab263c9" : {
     "eventId" : "355dc31e-dfe3-4505-9e03-e8b79ab263c9",
@@ -8349,6 +9070,13 @@
     "message" : "time=\"2026-09-27T04:52:59.883299288Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:91eec2c9bb5e9a270a1cac810172d973f0609748d53d73d0e4cb2961dc429cab err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=3602e98c-b671-48c0-9e9f-9cbb161233a3 http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:35114\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:91eec2c9bb5e9a270a1cac810172d973f0609748d53d73d0e4cb2961dc429cab\" http.request.useragent=\"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=7.551218ms http.response.status=404 http.response.written=157 vars.digest=\"sha256:91eec2c9bb5e9a270a1cac810172d973f0609748d53d73d0e4cb2961dc429cab\" vars.name=lomax-frontend",
     "ingestionTime" : 1790489286512,
     "sequence" : 1074
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756615577::07696099-45a1-402f-9ae5-67c6c30ddef3" : {
+    "eventId" : "07696099-45a1-402f-9ae5-67c6c30ddef3",
+    "timestamp" : 1790756615577,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"HEAD /v2/lomax-backend/blobs/sha256:d5e12b6358948004de8d169cfd4b07e7c557605862ad8d9ad42194eb04f93a61 HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756615577,
+    "sequence" : 1757
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484737744::17525106-eb85-47ca-80da-728d5f008a2c" : {
     "eventId" : "17525106-eb85-47ca-80da-728d5f008a2c",
@@ -8441,6 +9169,13 @@
     "ingestionTime" : 1790537879398,
     "sequence" : 1488
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756617113::eca63025-1921-4826-b421-39565627ebd2" : {
+    "eventId" : "eca63025-1921-4826-b421-39565627ebd2",
+    "timestamp" : 1790756617113,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"PUT /v2/lomax-backend/blobs/uploads/9da2f625-a846-4445-bb78-b3e428bb22ca?_state=z-m5MZtt2dSWrOY0fF_Pocb_nTuFO4H_5AYmKgQTvXt7Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6IjlkYTJmNjI1LWE4NDYtNDQ0NS1iYjc4LWIzZTQyOGJiMjJjYSIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4xNjQ5MjEwNzVaIn0%3D&digest=sha256%3A264ba3d8ae19c964ad7ebecdd4379a348cc08c7898b50d08d7884127a78fdb23 HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756617113,
+    "sequence" : 1773
+  },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/27/d66de642::001790472502106::cd144b1b-53fe-4aac-b54c-796bb51951b0" : {
     "eventId" : "cd144b1b-53fe-4aac-b54c-796bb51951b0",
     "timestamp" : 1790472502106,
@@ -8531,6 +9266,13 @@
     "message" : "time=\"2026-09-27T04:52:17.492779531Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=0133ff1b-5494-46c1-9713-03d8eeab198a http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:43866\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/ed678d4a-541d-4272-8e0c-8e3f1b4a49ba?_state=0g8vV3J_h6t1SfHH4L8wJdfKv5BKdyyXoNt97JMfh2d7Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6ImVkNjc4ZDRhLTU0MWQtNDI3Mi04ZTBjLThlM2YxYjRhNDliYSIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0yN1QwNDo1MjoxNy4zODkwOTg4OTZaIn0%3D&digest=sha256%3A44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a\" http.request.useragent=\"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\(windows\\))\" http.response.duration=65.127629ms http.response.status=201 http.response.written=0",
     "ingestionTime" : 1790489283376,
     "sequence" : 1009
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756680697::b07084be-3dfb-444d-b92f-8d82650b19c3" : {
+    "eventId" : "b07084be-3dfb-444d-b92f-8d82650b19c3",
+    "timestamp" : 1790756680697,
+    "message" : "time=\"2026-09-30T08:24:34.696330434Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=d36ca873-bec4-4fbb-9cfb-b3248da96e42 http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:55460\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/66339073-dcbc-479b-8f26-de92516e910e?_state=zd6SNWlce_MNkLnuxVAkY_1xz5K4tXvw0rMYgnfryZN7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI2NjMzOTA3My1kY2JjLTQ3OWItOGYyNi1kZTkyNTE2ZTkxMGUiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNjY3NDc2NDFaIn0%3D&digest=sha256%3A9a9a644fdd6a3681d43dace44c8cfef374cfd7b24f433113379ea483692498a8\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=15.548864ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756680697,
+    "sequence" : 1831
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484780263::811152c1-b861-423d-85a1-a2c6f026875b" : {
     "eventId" : "811152c1-b861-423d-85a1-a2c6f026875b",
@@ -8763,6 +9505,13 @@
     "ingestionTime" : 1790487092841,
     "sequence" : 833
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756680258::6fb4b2aa-63ec-4ec9-b17e-6ecf33184566" : {
+    "eventId" : "6fb4b2aa-63ec-4ec9-b17e-6ecf33184566",
+    "timestamp" : 1790756680258,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"PUT /v2/lomax-frontend/blobs/uploads/66339073-dcbc-479b-8f26-de92516e910e?_state=zd6SNWlce_MNkLnuxVAkY_1xz5K4tXvw0rMYgnfryZN7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI2NjMzOTA3My1kY2JjLTQ3OWItOGYyNi1kZTkyNTE2ZTkxMGUiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNjY3NDc2NDFaIn0%3D&digest=sha256%3A9a9a644fdd6a3681d43dace44c8cfef374cfd7b24f433113379ea483692498a8 HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756680258,
+    "sequence" : 1830
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790484975849::e432fcff-6b81-4acb-9481-5e5b3219f04f" : {
     "eventId" : "e432fcff-6b81-4acb-9481-5e5b3219f04f",
     "timestamp" : 1790484975849,
@@ -8776,6 +9525,13 @@
     "message" : "--> GET /assets/react-vendor-dvtXtJwz.js \u001B[32m200\u001B[0m 5ms",
     "ingestionTime" : 1790486512395,
     "sequence" : 816
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756614378::5c92b1a4-084d-4042-a314-4979ba383ff5" : {
+    "eventId" : "5c92b1a4-084d-4042-a314-4979ba383ff5",
+    "timestamp" : 1790756614378,
+    "message" : "time=\"2026-09-30T08:23:31.191708556Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=3ebaf3c3-1244-459b-8c22-08338031aa22 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:36552\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=32.068851ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756614378,
+    "sequence" : 1743
   },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/27/d66de642::001790472502249::614c0e4d-b374-4e6c-a762-70de1cdffabd" : {
     "eventId" : "614c0e4d-b374-4e6c-a762-70de1cdffabd",
@@ -8861,6 +9617,13 @@
     "ingestionTime" : 1790484975724,
     "sequence" : 360
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756614067::28735545-79cc-40a0-bbc8-df6c035340e5" : {
+    "eventId" : "28735545-79cc-40a0-bbc8-df6c035340e5",
+    "timestamp" : 1790756614067,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"POST /v2/lomax-backend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756614067,
+    "sequence" : 1739
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790537726197::6ab99842-a371-4ac6-983a-b92be1684cac" : {
     "eventId" : "6ab99842-a371-4ac6-983a-b92be1684cac",
     "timestamp" : 1790537726197,
@@ -8874,6 +9637,13 @@
     "message" : "<-- GET /api/clouds/aws/services/identity/resources",
     "ingestionTime" : 1790485060476,
     "sequence" : 517
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756681761::1ae17b7e-3910-4674-860b-face41a2444b" : {
+    "eventId" : "1ae17b7e-3910-4674-860b-face41a2444b",
+    "timestamp" : 1790756681761,
+    "message" : "time=\"2026-09-30T08:24:34.724627584Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=afbfb6ca-fff2-4662-8e3a-858dbe610f23 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:55460\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=10.674395ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756681761,
+    "sequence" : 1842
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484738385::b53d81b7-b459-4257-8563-0c358d19d1ed" : {
     "eventId" : "b53d81b7-b459-4257-8563-0c358d19d1ed",
@@ -8902,6 +9672,13 @@
     "message" : "172.17.0.1 - - [27/Sep/2026:19:43:49 +0000] \"HEAD /v2/lomax-frontend/blobs/sha256:745dfb2690dd8627e1593941caccc756f14943df7930a478beb4e808c5695cb9 HTTP/1.1\" 200 0 \"\" \"buildkit/v0.33\"",
     "ingestionTime" : 1790538231888,
     "sequence" : 1518
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756010611::b5d7ada1-3a45-42f2-b860-72f9136721a5" : {
+    "eventId" : "b5d7ada1-3a45-42f2-b860-72f9136721a5",
+    "timestamp" : 1790756010611,
+    "message" : "172.23.0.2 - - [30/Sep/2026:08:13:30 +0000] \"GET /v2/_catalog HTTP/1.1\" 200 34 \"\" \"Java-http-client/25.0.4.1\"",
+    "ingestionTime" : 1790756010611,
+    "sequence" : 1716
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790537723531::fcfbef14-031b-4a2a-be85-5f817b289506" : {
     "eventId" : "fcfbef14-031b-4a2a-be85-5f817b289506",
@@ -9028,6 +9805,13 @@
     "message" : "<-- GET /api/clouds/aws/services/k8s/resources",
     "ingestionTime" : 1790485011323,
     "sequence" : 406
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756614155::6cc2d3c5-822a-4b34-bab8-844ccbf6ef7e" : {
+    "eventId" : "6cc2d3c5-822a-4b34-bab8-844ccbf6ef7e",
+    "timestamp" : 1790756614155,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"POST /v2/lomax-backend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756614155,
+    "sequence" : 1740
   },
   "000000000000/us-east-1::/aws/lambda/lomax-image-processor::2026/09/27/[$LATEST]84831b68::001790476469731::6d8edcb2-6176-4d76-8b95-7bd2e9b463d7" : {
     "eventId" : "6d8edcb2-6176-4d76-8b95-7bd2e9b463d7",
@@ -9183,6 +9967,27 @@
     "ingestionTime" : 1790537735167,
     "sequence" : 1441
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756677188::5f57e482-49cc-4ada-aeec-cbe1f7201539" : {
+    "eventId" : "5f57e482-49cc-4ada-aeec-cbe1f7201539",
+    "timestamp" : 1790756677188,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"PUT /v2/lomax-frontend/blobs/uploads/835dd46e-0d58-4aaf-a255-78701612d133?_state=Cn0gpTu4BNhrsGebHIE6MEIzZ4RLbvl8p2HuEk8JqQR7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI4MzVkZDQ2ZS0wZDU4LTRhYWYtYTI1NS03ODcwMTYxMmQxMzMiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNTg5NDYyMTI1WiJ9&digest=sha256%3A6c53d0b2a666ed8f8fad8d9982e30cf24eb085036c17b27591665ca25e1ba40c HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756677188,
+    "sequence" : 1804
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756677095::459f1d3f-8f3c-49a2-bede-ab7141651bc9" : {
+    "eventId" : "459f1d3f-8f3c-49a2-bede-ab7141651bc9",
+    "timestamp" : 1790756677095,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"PUT /v2/lomax-frontend/blobs/uploads/1db017c5-e4bf-4c27-a526-24b88fc35172?_state=hkAnXnNuUzQxjPsY4hlnvfUWtFBynttvJdvXjnhnhDB7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiIxZGIwMTdjNS1lNGJmLTRjMjctYTUyNi0yNGI4OGZjMzUxNzIiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNTg5NjI5NTg5WiJ9&digest=sha256%3A745dfb2690dd8627e1593941caccc756f14943df7930a478beb4e808c5695cb9 HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756677095,
+    "sequence" : 1803
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756679396::d61ca14c-a8c0-4fc4-b7e6-d6b520899075" : {
+    "eventId" : "d61ca14c-a8c0-4fc4-b7e6-d6b520899075",
+    "timestamp" : 1790756679396,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"HEAD /v2/lomax-frontend/blobs/sha256:43fd84858a188299702a87252fac260623d3594ff8ce2c73a1be76b3b6cbda5d HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756679396,
+    "sequence" : 1822
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485025022::7313583d-49d1-48f0-aeb1-8d383b04a61c" : {
     "eventId" : "7313583d-49d1-48f0-aeb1-8d383b04a61c",
     "timestamp" : 1790485025022,
@@ -9210,6 +10015,13 @@
     "message" : "2026-09-28 19:25:47.051 UTC [86] FATAL:  database \"lomax\" does not exist",
     "ingestionTime" : 1790623547766,
     "sequence" : 1642
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756674943::919e563d-367d-4e82-9373-95f1005926a4" : {
+    "eventId" : "919e563d-367d-4e82-9373-95f1005926a4",
+    "timestamp" : 1790756674943,
+    "message" : "time=\"2026-09-30T08:24:34.585382881Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:e2de96513ba9eb53b431787ec8a65cdde380ac4772a3e4c4b714dcfde2a102b5 err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=d62004eb-8e6f-4043-8774-4bab612bb46a http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:55476\" http.request.uri=\"/v2/lomax-frontend/blobs/sha256:e2de96513ba9eb53b431787ec8a65cdde380ac4772a3e4c4b714dcfde2a102b5\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=7.65859ms http.response.status=404 http.response.written=157 vars.digest=\"sha256:e2de96513ba9eb53b431787ec8a65cdde380ac4772a3e4c4b714dcfde2a102b5\" vars.name=lomax-frontend",
+    "ingestionTime" : 1790756674943,
+    "sequence" : 1784
   },
   "000000000000/us-east-1::/aws/lambda/lomax-image-processor::2026/09/27/[$LATEST]c3ab5fcf::001790476363800::f0100755-b4c0-4520-8c81-0b066485d891" : {
     "eventId" : "f0100755-b4c0-4520-8c81-0b066485d891",
@@ -9337,6 +10149,13 @@
     "ingestionTime" : 1790484984254,
     "sequence" : 373
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756010453::ebef0d86-dd9d-463b-9c8e-648d7aaed46c" : {
+    "eventId" : "ebef0d86-dd9d-463b-9c8e-648d7aaed46c",
+    "timestamp" : 1790756010453,
+    "message" : "time=\"2026-09-30T08:13:30.452013085Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"floci-ecr-registry:5000\" http.request.id=555ee1d9-a451-464d-b341-1b15c7242814 http.request.method=GET http.request.remoteaddr=\"172.23.0.2:41420\" http.request.uri=\"/v2/_catalog\" http.request.useragent=\"Java-http-client/25.0.4.1\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=3.441508ms http.response.status=200 http.response.written=34",
+    "ingestionTime" : 1790756010454,
+    "sequence" : 1715
+  },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/27/61372d98::001790489266852::b4b3a557-2dbb-4a8b-9a75-b5e3821effaf" : {
     "eventId" : "b4b3a557-2dbb-4a8b-9a75-b5e3821effaf",
     "timestamp" : 1790489266852,
@@ -9413,6 +10232,27 @@
     "message" : "time=\"2026-09-27T04:53:00.269547182Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=ba9685be-13ef-4d6b-af40-e4618e6ec385 http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:35114\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/1353183f-3be4-4cbd-bf6c-4237e65f8d74?_state=NM-0rG7m-UxzFcO0emtVsME79XzVXq90qqafpqax1j17Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiIxMzUzMTgzZi0zYmU0LTRjYmQtYmY2Yy00MjM3ZTY1ZjhkNzQiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMjdUMDQ6NTM6MDAuMDI1NjAwOTI4WiJ9&digest=sha256%3Ae72112c14215406dc7f23ef8e5cfdfddeb8662176167382ad64ec86f52b7a88e\" http.request.useragent=\"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\(windows\\))\" http.response.duration=224.837191ms http.response.status=201 http.response.written=0",
     "ingestionTime" : 1790537730541,
     "sequence" : 1385
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756616172::ab71ade9-24b7-4c1c-a8c5-34c370d4d14d" : {
+    "eventId" : "ab71ade9-24b7-4c1c-a8c5-34c370d4d14d",
+    "timestamp" : 1790756616172,
+    "message" : "time=\"2026-09-30T08:23:31.243989903Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=dbd3fcd7-3120-43a3-bbb8-bd7b8bc35cd2 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:36532\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=11.764501ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756616172,
+    "sequence" : 1763
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756617190::8329a4b8-5d11-4f09-852c-bc37c6065094" : {
+    "eventId" : "8329a4b8-5d11-4f09-852c-bc37c6065094",
+    "timestamp" : 1790756617190,
+    "message" : "time=\"2026-09-30T08:23:31.332746424Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=d1a46627-ef4c-44fe-913a-2fea0568f54c http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:36552\" http.request.uri=\"/v2/lomax-backend/blobs/uploads/46f79818-ebd4-4305-b8f4-dc9cc6928e3a?_state=LFn-b3Vr0UFp4a8OSC_c7wIgbvdV2idU4k2c1YUJ_817Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6IjQ2Zjc5ODE4LWViZDQtNDMwNS1iOGY0LWRjOWNjNjkyOGUzYSIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4xNjUwNjg5MjVaIn0%3D&digest=sha256%3A6b37362b3da78869050b894b799ad4df04f1f3b52774087db0d81151570244c8\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=140.815002ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756617190,
+    "sequence" : 1774
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756676559::1098dcc1-f5e9-4f71-8d44-64170a7e54ec" : {
+    "eventId" : "1098dcc1-f5e9-4f71-8d44-64170a7e54ec",
+    "timestamp" : 1790756676559,
+    "message" : "time=\"2026-09-30T08:24:34.61434151Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=ddb2fc45-0fc0-4146-9ec7-f9cdc446f605 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:55466\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=27.616858ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756676559,
+    "sequence" : 1797
   },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/28/614b7d5e::001790623548984::49f3638e-aed6-4c93-99cb-595c6f6d1df6" : {
     "eventId" : "49f3638e-aed6-4c93-99cb-595c6f6d1df6",
@@ -9519,6 +10359,13 @@
     "ingestionTime" : 1790489286752,
     "sequence" : 1079
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756614558::8d8d0126-29e2-49e8-b9a3-2a34a75b1b39" : {
+    "eventId" : "8d8d0126-29e2-49e8-b9a3-2a34a75b1b39",
+    "timestamp" : 1790756614558,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"PUT /v2/lomax-backend/blobs/uploads/42b8a826-3415-4b29-a005-deca443c9e2b?_state=niG3-sGGbJUjSzpSst2ijTWGF6IVSuQNIdWyGWyGoVF7Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6IjQyYjhhODI2LTM0MTUtNGIyOS1hMDA1LWRlY2E0NDNjOWUyYiIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4xNjQyNzMzMzRaIn0%3D&digest=sha256%3Aa2e4e63b8580d299a98ca8fc0019feb0d49c83419715abb974111b23300db689 HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756614558,
+    "sequence" : 1745
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790537725986::89147fbe-7ea9-4135-9dd2-b10daa98645a" : {
     "eventId" : "89147fbe-7ea9-4135-9dd2-b10daa98645a",
     "timestamp" : 1790537725986,
@@ -9539,6 +10386,13 @@
     "message" : "time=\"2026-09-27T04:53:00.282662055Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/vnd.oci.image.manifest.v1+json\" http.request.host=\"localhost:5100\" http.request.id=a5c9e8d8-6261-4d8d-b62d-1f7ad5627504 http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:35102\" http.request.uri=\"/v2/lomax-frontend/manifests/sha256:69559fa2c7a7595a9eb691c27cb1c3a7563720928bf87006f63b0bc839a63fea\" http.request.useragent=\"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\(windows\\))\" http.response.duration=8.756516ms http.response.status=201 http.response.written=0",
     "ingestionTime" : 1790489290299,
     "sequence" : 1146
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756676135::bb328ed8-dc70-421c-a6ef-01eb2ae81f04" : {
+    "eventId" : "bb328ed8-dc70-421c-a6ef-01eb2ae81f04",
+    "timestamp" : 1790756676135,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"POST /v2/lomax-frontend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756676135,
+    "sequence" : 1794
   },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/28/614b7d5e::001790751036512::49091341-4ade-4330-9996-523452c7e997" : {
     "eventId" : "49091341-4ade-4330-9996-523452c7e997",
@@ -9673,6 +10527,13 @@
     "ingestionTime" : 1790488568435,
     "sequence" : 954
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756961981::560c18ea-4a4f-4de8-aeaa-132750a04dad" : {
+    "eventId" : "560c18ea-4a4f-4de8-aeaa-132750a04dad",
+    "timestamp" : 1790756961981,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:29:21 +0000] \"POST / HTTP/1.1\" 200 0 \"\" \"aws-cli/2.36.44 md/awscrt#0.36.2 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.14.6 md/pyimpl#CPython m/n,Z,E,C,N,b cfg/retry-mode#standard md/installer#script-exe sid/60ea2314d577 md/prompt#off md/command#ecr.describe-images\"",
+    "ingestionTime" : 1790756961981,
+    "sequence" : 1853
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790537729840::0fe4dc42-1921-4f34-8d59-c34c6d3ea57d" : {
     "eventId" : "0fe4dc42-1921-4f34-8d59-c34c6d3ea57d",
     "timestamp" : 1790537729840,
@@ -9736,6 +10597,13 @@
     "ingestionTime" : 1790623560790,
     "sequence" : 1679
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756612102::05a346dc-5b2d-493d-9cf5-907e56b98f7a" : {
+    "eventId" : "05a346dc-5b2d-493d-9cf5-907e56b98f7a",
+    "timestamp" : 1790756612102,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"HEAD /v2/lomax-backend/blobs/sha256:264ba3d8ae19c964ad7ebecdd4379a348cc08c7898b50d08d7884127a78fdb23 HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756612102,
+    "sequence" : 1729
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485148488::965e27de-2a36-4952-9ab4-3faae10955c6" : {
     "eventId" : "965e27de-2a36-4952-9ab4-3faae10955c6",
     "timestamp" : 1790485148488,
@@ -9770,6 +10638,13 @@
     "message" : "time=\"2026-09-27T19:37:43.895608256Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=9d71be44-f0db-4061-84ae-62a69f4e040e http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:59618\" http.request.uri=\"/v2/lomax-backend/blobs/sha256:e86b6a8d5530297cd7988d89a647b362d53b599c52ef39d89aa0c2b89b882d6c\" http.request.useragent=\"buildkit/v0.33\" http.response.contenttype=\"application/octet-stream\" http.response.duration=26.514241ms http.response.status=200 http.response.written=0",
     "ingestionTime" : 1790537864601,
     "sequence" : 1470
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756677465::056f3a89-48be-4f46-a552-52f2b62563ac" : {
+    "eventId" : "056f3a89-48be-4f46-a552-52f2b62563ac",
+    "timestamp" : 1790756677465,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"PUT /v2/lomax-frontend/blobs/uploads/2609c4ab-893c-426b-9271-e7e5eaa9e68b?_state=MtoUPAuQ81q3hjgz20GmcJZOrxB3bltr34Qvi_GQhVF7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiIyNjA5YzRhYi04OTNjLTQyNmItOTI3MS1lN2U1ZWFhOWU2OGIiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNjE0NDI5OTg2WiJ9&digest=sha256%3A027cf86c58fa87b8a30f6b00b70079acd1c86261e628bc04eaa29171a388007a HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756677465,
+    "sequence" : 1807
   },
   "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error::2026/09/27/f8c05a5d::001790474491388::67a5074b-3241-454a-8fc8-703be40e6109" : {
     "eventId" : "67a5074b-3241-454a-8fc8-703be40e6109",
@@ -9819,6 +10694,13 @@
     "message" : "<-- GET /api/clouds/aws/services/networking/schema",
     "ingestionTime" : 1790485024426,
     "sequence" : 459
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756675130::9d600194-63aa-4c23-bafe-cabd1c9ae2c6" : {
+    "eventId" : "9d600194-63aa-4c23-bafe-cabd1c9ae2c6",
+    "timestamp" : 1790756675130,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"HEAD /v2/lomax-frontend/blobs/sha256:027cf86c58fa87b8a30f6b00b70079acd1c86261e628bc04eaa29171a388007a HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756675130,
+    "sequence" : 1786
   },
   "000000000000/us-east-1::/aws/lambda/lomax-image-processor::2026/09/27/[$LATEST]c3ab5fcf::001790476363776::a0de3c7e-ddaf-4216-8202-ec9d39ad8a68" : {
     "eventId" : "a0de3c7e-ddaf-4216-8202-ec9d39ad8a68",
@@ -9875,6 +10757,13 @@
     "message" : "172.17.0.1 - - [27/Sep/2026:04:52:59 +0000] \"PUT /v2/lomax-frontend/blobs/uploads/60b85f5c-d71a-4307-8d9e-21b13ca18a18?_state=5mY9uGGbNpgKb_RrDtQvX-PR5vz0ZOUWu2Tfvc_eXN17Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI2MGI4NWY1Yy1kNzFhLTQzMDctOGQ5ZS0yMWIxM2NhMThhMTgiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMjdUMDQ6NTI6NTkuODkzMTU4MDk0WiJ9&digest=sha256%3A6c53d0b2a666ed8f8fad8d9982e30cf24eb085036c17b27591665ca25e1ba40c HTTP/1.1\" 201 0 \"\" \"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\\\(windows\\\\))\"",
     "ingestionTime" : 1790489287706,
     "sequence" : 1098
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756682203::e6e6a823-37a2-4d1b-ac4e-30d2ec2a0574" : {
+    "eventId" : "e6e6a823-37a2-4d1b-ac4e-30d2ec2a0574",
+    "timestamp" : 1790756682203,
+    "message" : "time=\"2026-09-30T08:24:34.77121382Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=3291a17f-e076-42c7-90da-242faa46d98c http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:55476\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/5c68ceed-b69b-4190-8392-c39a9b573ba5?_state=pAVBxZ56EIPsuIkvVqNUypI1kUqFGa-n51Oi2LPLwwp7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI1YzY4Y2VlZC1iNjliLTQxOTAtODM5Mi1jMzlhOWI1NzNiYTUiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNjgzNjk4MjQxWiJ9&digest=sha256%3Ae72112c14215406dc7f23ef8e5cfdfddeb8662176167382ad64ec86f52b7a88e\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=73.943883ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756682203,
+    "sequence" : 1846
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790488562585::70bd9da3-495f-4806-af54-afb450d828ee" : {
     "eventId" : "70bd9da3-495f-4806-af54-afb450d828ee",
@@ -10023,6 +10912,13 @@
     "ingestionTime" : 1790489289669,
     "sequence" : 1135
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756681496::f5bce5ff-5ca7-4c2e-ba57-d01453d6abf6" : {
+    "eventId" : "f5bce5ff-5ca7-4c2e-ba57-d01453d6abf6",
+    "timestamp" : 1790756681496,
+    "message" : "time=\"2026-09-30T08:24:34.71359582Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=2ef1bec3-79c9-4a72-a6e7-1d2732f73d19 http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:55460\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/6d551eea-8b27-4cd3-b593-4aea63318c40?_state=AysEfxoIyZLi01ClPjJqMRzBnbLQe5h1ZOSRnq6L9bd7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI2ZDU1MWVlYS04YjI3LTRjZDMtYjU5My00YWVhNjMzMThjNDAiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNjc2MjI5OTk1WiJ9&digest=sha256%3Ae76228b47809e8a4bd37a6ba52a04d282d8c72ddf0ff9e8b83fd6318631abd52\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=16.655642ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756681496,
+    "sequence" : 1839
+  },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790485909895::8fe6c257-1d9d-4074-9c7d-d1ca6fe70ab4" : {
     "eventId" : "8fe6c257-1d9d-4074-9c7d-d1ca6fe70ab4",
     "timestamp" : 1790485909895,
@@ -10064,6 +10960,13 @@
     "message" : "--> GET /api/clouds/aws/services/workflows/resources \u001B[32m200\u001B[0m 18ms",
     "ingestionTime" : 1790485108212,
     "sequence" : 590
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756614790::67daa96f-7af0-435e-a469-c6803a52a6ad" : {
+    "eventId" : "67daa96f-7af0-435e-a469-c6803a52a6ad",
+    "timestamp" : 1790756614790,
+    "message" : "time=\"2026-09-30T08:23:31.215598605Z\" level=error msg=\"response completed with error\" err.code=\"blob unknown\" err.detail=sha256:0ecac1a43901fe6bdbe231d1c63f0b6af04c2cad21c0968ef1faff5780c08968 err.message=\"blob unknown to registry\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=aee79892-581e-4ca3-a290-db6e78d7908a http.request.method=HEAD http.request.remoteaddr=\"172.17.0.1:36540\" http.request.uri=\"/v2/lomax-backend/blobs/sha256:0ecac1a43901fe6bdbe231d1c63f0b6af04c2cad21c0968ef1faff5780c08968\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=\"548.143µs\" http.response.status=404 http.response.written=157 vars.digest=\"sha256:0ecac1a43901fe6bdbe231d1c63f0b6af04c2cad21c0968ef1faff5780c08968\" vars.name=lomax-backend",
+    "ingestionTime" : 1790756614790,
+    "sequence" : 1748
   },
   "000000000000/us-east-1::/floci/ui::2026/09/27/98b0530b::001790488567949::4f610ef9-ce35-4706-8598-cf0807de53c6" : {
     "eventId" : "4f610ef9-ce35-4706-8598-cf0807de53c6",
@@ -10135,12 +11038,26 @@
     "ingestionTime" : 1790485416695,
     "sequence" : 673
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756679050::087d2b6c-1e5a-4f3a-93e6-d6dc3d11cb83" : {
+    "eventId" : "087d2b6c-1e5a-4f3a-93e6-d6dc3d11cb83",
+    "timestamp" : 1790756679050,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"HEAD /v2/lomax-frontend/blobs/sha256:e72112c14215406dc7f23ef8e5cfdfddeb8662176167382ad64ec86f52b7a88e HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756679050,
+    "sequence" : 1820
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484738924::2b7496dc-c95a-4d1b-9743-f8ee154e6fdc" : {
     "eventId" : "2b7496dc-c95a-4d1b-9743-f8ee154e6fdc",
     "timestamp" : 1790484738924,
     "message" : "time=\"2026-09-27T04:52:18.360245367Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/vnd.oci.image.index.v1+json\" http.request.host=\"localhost:5100\" http.request.id=d0887806-68f7-44b7-8cef-25cabfd69654 http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:44008\" http.request.uri=\"/v2/lomax-backend/manifests/1.0\" http.request.useragent=\"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\(windows\\))\" http.response.duration=13.721255ms http.response.status=201 http.response.written=0",
     "ingestionTime" : 1790484738924,
     "sequence" : 215
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756681086::1e89d766-e092-41b5-b9ad-9002111f6e3a" : {
+    "eventId" : "1e89d766-e092-41b5-b9ad-9002111f6e3a",
+    "timestamp" : 1790756681086,
+    "message" : "time=\"2026-09-30T08:24:34.70986483Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/octet-stream\" http.request.host=\"localhost:5100\" http.request.id=1a9aa3ce-76f5-4906-8932-e0cb97226065 http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:55466\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/4452baff-5218-4103-afa6-301340b718d2?_state=m5SwbkM41clUKU-Dn3s-QzJ0a_XlNxaw7HZbGkLAbgZ7Ik5hbWUiOiJsb21heC1mcm9udGVuZCIsIlVVSUQiOiI0NDUyYmFmZi01MjE4LTQxMDMtYWZhNi0zMDEzNDBiNzE4ZDIiLCJPZmZzZXQiOjAsIlN0YXJ0ZWRBdCI6IjIwMjYtMDktMzBUMDg6MjQ6MzQuNjcwNzc4MjRaIn0%3D&digest=sha256%3A64c8194480fee2c03e01cc561cf5542733627d2c7de493a028139677025f975c\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=15.043618ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756681086,
+    "sequence" : 1835
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489289396::1c2f0354-96d3-4496-a909-27ba49573a11" : {
     "eventId" : "1c2f0354-96d3-4496-a909-27ba49573a11",
@@ -10513,6 +11430,13 @@
     "ingestionTime" : 1790537733381,
     "sequence" : 1418
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756617268::43e89202-5204-4a86-bb6c-b786726e4018" : {
+    "eventId" : "43e89202-5204-4a86-bb6c-b786726e4018",
+    "timestamp" : 1790756617268,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:23:31 +0000] \"PUT /v2/lomax-backend/blobs/uploads/46f79818-ebd4-4305-b8f4-dc9cc6928e3a?_state=LFn-b3Vr0UFp4a8OSC_c7wIgbvdV2idU4k2c1YUJ_817Ik5hbWUiOiJsb21heC1iYWNrZW5kIiwiVVVJRCI6IjQ2Zjc5ODE4LWViZDQtNDMwNS1iOGY0LWRjOWNjNjkyOGUzYSIsIk9mZnNldCI6MCwiU3RhcnRlZEF0IjoiMjAyNi0wOS0zMFQwODoyMzozMS4xNjUwNjg5MjVaIn0%3D&digest=sha256%3A6b37362b3da78869050b894b799ad4df04f1f3b52774087db0d81151570244c8 HTTP/1.1\" 201 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756617268,
+    "sequence" : 1775
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790489284894::b05e5c71-9fed-43c8-9c6b-e2b0de583396" : {
     "eventId" : "b05e5c71-9fed-43c8-9c6b-e2b0de583396",
     "timestamp" : 1790489284894,
@@ -10659,6 +11583,13 @@
     "message" : "time=\"2026-09-27T06:00:13.978595769Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=29cc36ec-3284-41b4-bb2b-041b9a365bc3 http.request.method=GET http.request.remoteaddr=\"172.17.0.1:39360\" http.request.uri=\"/v2/lomax-backend/tags/list\" http.request.useragent=\"curl/8.21.0\" http.response.contenttype=\"application/json; charset=utf-8\" http.response.duration=3.743466ms http.response.status=200 http.response.written=46",
     "ingestionTime" : 1790489293196,
     "sequence" : 1190
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756677669::8c76ce5b-a924-42d9-be94-d00124e1f4bf" : {
+    "eventId" : "8c76ce5b-a924-42d9-be94-d00124e1f4bf",
+    "timestamp" : 1790756677669,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"HEAD /v2/lomax-frontend/blobs/sha256:9a9a644fdd6a3681d43dace44c8cfef374cfd7b24f433113379ea483692498a8 HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756677669,
+    "sequence" : 1809
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790537863899::39869b76-f2d9-4329-85a6-04beea094ddb" : {
     "eventId" : "39869b76-f2d9-4329-85a6-04beea094ddb",
@@ -10877,6 +11808,13 @@
     "ingestionTime" : 1790537725402,
     "sequence" : 1321
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756677855::e99ef7ae-b72e-421d-9510-811d369fb992" : {
+    "eventId" : "e99ef7ae-b72e-421d-9510-811d369fb992",
+    "timestamp" : 1790756677855,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"HEAD /v2/lomax-frontend/blobs/sha256:64c8194480fee2c03e01cc561cf5542733627d2c7de493a028139677025f975c HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756677855,
+    "sequence" : 1811
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790537725258::46fe05be-7166-4a00-b944-2591c2c1dc1b" : {
     "eventId" : "46fe05be-7166-4a00-b944-2591c2c1dc1b",
     "timestamp" : 1790537725258,
@@ -10961,6 +11899,13 @@
     "ingestionTime" : 1790537721512,
     "sequence" : 1271
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756674590::c09d9316-bfe5-4a91-8f5c-339982b4d3f0" : {
+    "eventId" : "c09d9316-bfe5-4a91-8f5c-339982b4d3f0",
+    "timestamp" : 1790756674590,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"HEAD /v2/lomax-frontend/blobs/sha256:e2de96513ba9eb53b431787ec8a65cdde380ac4772a3e4c4b714dcfde2a102b5 HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756674591,
+    "sequence" : 1782
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790484738497::df91c8c0-8abc-4141-863a-2c8b22a4570e" : {
     "eventId" : "df91c8c0-8abc-4141-863a-2c8b22a4570e",
     "timestamp" : 1790484738497,
@@ -10988,6 +11933,13 @@
     "message" : "<-- GET /api/ec2/route-tables",
     "ingestionTime" : 1790485024765,
     "sequence" : 468
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756683017::69afc243-901d-426e-b8f6-d5bcd7c39024" : {
+    "eventId" : "69afc243-901d-426e-b8f6-d5bcd7c39024",
+    "timestamp" : 1790756683017,
+    "message" : "time=\"2026-09-30T08:24:34.783380401Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.contenttype=\"application/vnd.docker.distribution.manifest.v2+json\" http.request.host=\"localhost:5100\" http.request.id=6085976c-dfd8-48a9-9d75-6d8d74ce0c17 http.request.method=PUT http.request.remoteaddr=\"172.17.0.1:55460\" http.request.uri=\"/v2/lomax-frontend/manifests/1.0\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=10.972892ms http.response.status=201 http.response.written=0",
+    "ingestionTime" : 1790756683017,
+    "sequence" : 1850
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790482589629::aa20cb90-6921-4dd5-acde-99656373479d" : {
     "eventId" : "aa20cb90-6921-4dd5-acde-99656373479d",
@@ -11857,6 +12809,20 @@
     "ingestionTime" : 1790489283722,
     "sequence" : 1017
   },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756676267::8ef8efaf-a35a-4313-a7b1-fe35a0991498" : {
+    "eventId" : "8ef8efaf-a35a-4313-a7b1-fe35a0991498",
+    "timestamp" : 1790756676267,
+    "message" : "time=\"2026-09-30T08:24:34.613359148Z\" level=info msg=\"response completed\" go.version=go1.20.8 http.request.host=\"localhost:5100\" http.request.id=61f741f6-a516-4486-b71b-21836b826670 http.request.method=POST http.request.remoteaddr=\"172.17.0.1:55476\" http.request.uri=\"/v2/lomax-frontend/blobs/uploads/\" http.request.useragent=\"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\(windows\\))\" http.response.duration=26.564485ms http.response.status=202 http.response.written=0",
+    "ingestionTime" : 1790756676267,
+    "sequence" : 1795
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756674835::480f4730-6a46-4255-b497-fd074078999c" : {
+    "eventId" : "480f4730-6a46-4255-b497-fd074078999c",
+    "timestamp" : 1790756674835,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"HEAD /v2/lomax-frontend/blobs/sha256:6c53d0b2a666ed8f8fad8d9982e30cf24eb085036c17b27591665ca25e1ba40c HTTP/1.1\" 404 157 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756674835,
+    "sequence" : 1783
+  },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790538219695::3a3e5b1e-7be9-4b55-aa61-1236f282fe30" : {
     "eventId" : "3a3e5b1e-7be9-4b55-aa61-1236f282fe30",
     "timestamp" : 1790538219695,
@@ -11919,6 +12885,13 @@
     "message" : "172.17.0.1 - - [27/Sep/2026:19:44:23 +0000] \"HEAD /v2/lomax-frontend/manifests/1.0 HTTP/1.1\" 200 2262 \"\" \"docker/29.8.0 go/go1.26.8 git-commit/3ce5872 kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.4+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.8.0 \\\\(windows\\\\))\"",
     "ingestionTime" : 1790538263796,
     "sequence" : 1541
+  },
+  "000000000000/us-east-1::/aws/ecr/registry::2026/09/30/8f53f4c0::001790756676801::97c8d03f-b436-4e81-8174-c448b04e52a7" : {
+    "eventId" : "97c8d03f-b436-4e81-8174-c448b04e52a7",
+    "timestamp" : 1790756676801,
+    "message" : "172.17.0.1 - - [30/Sep/2026:08:24:34 +0000] \"POST /v2/lomax-frontend/blobs/uploads/ HTTP/1.1\" 202 0 \"\" \"docker/29.7.2 go/go1.26.5 git-commit/6a43e3d kernel/6.18.33.2-microsoft-standard-WSL2 os/linux arch/amd64 containerd-client/2.3.3+unknown storage-driver/overlayfs UpstreamClient(Docker-Client/29.7.2 \\\\(windows\\\\))\"",
+    "ingestionTime" : 1790756676801,
+    "sequence" : 1800
   },
   "000000000000/us-east-1::/aws/ecr/registry::2026/09/27/f6460888::001790538239443::93054c32-4599-4c86-a8df-918942342b13" : {
     "eventId" : "93054c32-4599-4c86-a8df-918942342b13",
