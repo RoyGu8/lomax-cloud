@@ -1,0 +1,47 @@
+{
+  "000000000000/us-east-1::000000000000::lomax-frontend" : {
+    "repositoryArn" : "arn:aws:ecr:us-east-1:000000000000:repository/lomax-frontend",
+    "registryId" : "000000000000",
+    "repositoryName" : "lomax-frontend",
+    "repositoryUri" : "localhost:4566/000000000000/us-east-1/lomax-frontend",
+    "registryRepositoryName" : null,
+    "createdAt" : "2026-09-27T04:16:40.630375148Z",
+    "imageTagMutability" : "MUTABLE",
+    "scanOnPush" : false,
+    "encryptionType" : "AES256",
+    "kmsKey" : null,
+    "lifecyclePolicyText" : null,
+    "repositoryPolicyText" : null,
+    "tags" : { }
+  },
+  "000000000000/us-east-1::000000000000::lomax-backend" : {
+    "repositoryArn" : "arn:aws:ecr:us-east-1:000000000000:repository/lomax-backend",
+    "registryId" : "000000000000",
+    "repositoryName" : "lomax-backend",
+    "repositoryUri" : "localhost:4566/000000000000/us-east-1/lomax-backend",
+    "registryRepositoryName" : null,
+    "createdAt" : "2026-09-27T04:16:34.221114158Z",
+    "imageTagMutability" : "MUTABLE",
+    "scanOnPush" : false,
+    "encryptionType" : "AES256",
+    "kmsKey" : null,
+    "lifecyclePolicyText" : null,
+    "repositoryPolicyText" : null,
+    "tags" : { }
+  },
+  "000000000000/us-east-1::000000000000::backend-rrhh" : {
+    "repositoryArn" : "arn:aws:ecr:us-east-1:000000000000:repository/backend-rrhh",
+    "registryId" : "000000000000",
+    "repositoryName" : "backend-rrhh",
+    "repositoryUri" : "localhost:4566/000000000000/us-east-1/backend-rrhh",
+    "registryRepositoryName" : "backend-rrhh",
+    "createdAt" : "2026-09-30T06:10:56.725689989Z",
+    "imageTagMutability" : "MUTABLE",
+    "scanOnPush" : false,
+    "encryptionType" : "AES256",
+    "kmsKey" : null,
+    "lifecyclePolicyText" : null,
+    "repositoryPolicyText" : null,
+    "tags" : { }
+  }
+}

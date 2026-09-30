@@ -1,0 +1,6 @@
+{
+  "hostnames" : [ "localhost", "127.0.0.1", "172.17.0.2" ],
+  "learnedHostnames" : [ ],
+  "generatedAt" : "2026-09-27T01:28:22.296554849Z",
+  "flociVersion" : "2.1.0"
+}

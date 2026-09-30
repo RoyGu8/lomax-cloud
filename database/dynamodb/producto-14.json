@@ -1,0 +1,30 @@
+{
+  "producto_id": {
+    "S": "14"
+  },
+  "tipo": {
+    "S": "monitor"
+  },
+  "atributos": {
+    "M": {
+      "pulgadas": {
+        "N": "24"
+      },
+      "resolucion": {
+        "S": "1920x1080"
+      },
+      "frecuencia_hz": {
+        "N": "100"
+      }
+    }
+  },
+  "imagen_original_key": {
+    "S": ""
+  },
+  "miniatura_key": {
+    "S": ""
+  },
+  "estado_imagen": {
+    "S": "PENDIENTE"
+  }
+}

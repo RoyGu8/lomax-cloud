@@ -1,0 +1,34 @@
+{
+  "000000000000/lomax-eks" : {
+    "name" : "lomax-eks",
+    "arn" : "arn:aws:eks:us-east-1:000000000000:cluster/lomax-eks",
+    "createdAt" : 1790538303.311905688,
+    "version" : "1.29",
+    "endpoint" : "https://localhost:6500",
+    "roleArn" : "arn:aws:iam::000000000000:role/lomax-eks-role",
+    "resourcesVpcConfig" : {
+      "subnetIds" : [ "subnet-default-us-east-1-a", "subnet-default-us-east-1-b", "subnet-default-us-east-1-c" ],
+      "securityGroupIds" : [ ],
+      "clusterSecurityGroupId" : null,
+      "vpcId" : "vpc-default-us-east-1",
+      "endpointPublicAccess" : true,
+      "endpointPrivateAccess" : false,
+      "publicAccessCidrs" : [ "0.0.0.0/0" ]
+    },
+    "kubernetesNetworkConfig" : {
+      "serviceIpv4Cidr" : "10.100.0.0/16",
+      "ipFamily" : "ipv4"
+    },
+    "status" : "ACTIVE",
+    "certificateAuthority" : {
+      "data" : "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJkekNDQVIyZ0F3SUJBZ0lCQURBS0JnZ3Foa2pPUFFRREFqQWpNU0V3SHdZRFZRUUREQmhyTTNNdGMyVnkKZG1WeUxXTmhRREUzT1RBM05EZzJOVGN3SGhjTk1qWXdPVE13TURZeE1EVTNXaGNOTXpZd09USTNNRFl4TURVMwpXakFqTVNFd0h3WURWUVFEREJock0zTXRjMlZ5ZG1WeUxXTmhRREUzT1RBM05EZzJOVGN3V1RBVEJnY3Foa2pPClBRSUJCZ2dxaGtqT1BRTUJCd05DQUFTQVZJRy9kamFyT3NzTWwrLzZqNGxaUm0zUU9OUDk1Nm1DRXVvcml6cXAKUk82OW5nTTZ2S2c3YS95Z0pPd1c0UFBEemlrK3M5VEJ0YXB0RDVHbFFaZ2xvMEl3UURBT0JnTlZIUThCQWY4RQpCQU1DQXFRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBZEJnTlZIUTRFRmdRVUVKVnZrSE5MTERJc1Z4NUlVUS9iCkZSNzhQcll3Q2dZSUtvWkl6ajBFQXdJRFNBQXdSUUlnZjdBV1Vvd3QxNmlNVTlzc0xjaXNsSlVkR3pRdzI5UFQKSEgvZEFjcGVjZ0FDSVFETTVldU9SaGxPY3BRRy9MWVFNM3ZhaGM2MXY5M3dLRTdUQU9rTmpLV3lFQT09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K"
+    },
+    "identity" : {
+      "oidc" : {
+        "issuer" : "https://oidc.eks.us-east-1.amazonaws.com/id/86B72031BF2947FB8C7BC896BC6F8449"
+      }
+    },
+    "platformVersion" : "eks.1",
+    "tags" : { }
+  }
+}

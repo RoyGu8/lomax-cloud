@@ -1,0 +1,32 @@
+{
+  "000000000000/lomax-lambda-role" : {
+    "roleId" : "AROAGR8FDEMZSCLZU0A7",
+    "roleName" : "lomax-lambda-role",
+    "path" : "/",
+    "arn" : "arn:aws:iam::000000000000:role/lomax-lambda-role",
+    "assumeRolePolicyDocument" : "ï»¿{\n  \"Version\": \"2012-10-17\",\n  \"Statement\": [\n    {\n      \"Effect\": \"Allow\",\n      \"Principal\": {\n        \"Service\": \"lambda.amazonaws.com\"\n      },\n      \"Action\": \"sts:AssumeRole\"\n    }\n  ]\n}\n",
+    "description" : null,
+    "maxSessionDuration" : 3600,
+    "createDate" : "2026-09-27T02:29:59.556216893Z",
+    "tags" : { },
+    "attachedPolicyArns" : [ ],
+    "inlinePolicies" : { },
+    "permissionsBoundaryArn" : null,
+    "serviceLinkedRole" : false
+  },
+  "000000000000/lomax-eks-role" : {
+    "roleId" : "AROAGD1G664BTLOPH0WP",
+    "roleName" : "lomax-eks-role",
+    "path" : "/",
+    "arn" : "arn:aws:iam::000000000000:role/lomax-eks-role",
+    "assumeRolePolicyDocument" : "{\n  Version: 2012-10-17,\n  Statement: [\n    {\n      Effect: Allow,\n      Principal: {\n        Service: eks.amazonaws.com\n      },\n      Action: sts:AssumeRole\n    }\n  ]\n}",
+    "description" : null,
+    "maxSessionDuration" : 3600,
+    "createDate" : "2026-09-27T05:03:53.392521488Z",
+    "tags" : { },
+    "attachedPolicyArns" : [ ],
+    "inlinePolicies" : { },
+    "permissionsBoundaryArn" : null,
+    "serviceLinkedRole" : false
+  }
+}

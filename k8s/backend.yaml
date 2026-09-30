@@ -1,0 +1,136 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lomax-backend
+  labels:
+    app: lomax
+    tier: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lomax
+      tier: backend
+  template:
+    metadata:
+      labels:
+        app: lomax
+        tier: backend
+    spec:
+      containers:
+      - name: backend
+        image: localhost:5100/lomax-backend:1.0
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8000
+          name: http
+        env:
+        - name: POD_NAME
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        - name: POD_IP
+          valueFrom:
+            fieldRef:
+              fieldPath: status.podIP
+        - name: DB_HOST
+          valueFrom:
+            configMapKeyRef:
+              name: lomax-config
+              key: DB_HOST
+        - name: DB_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: lomax-config
+              key: DB_PORT
+        - name: DB_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: lomax-config
+              key: DB_NAME
+        - name: AWS_ENDPOINT_URL
+          valueFrom:
+            configMapKeyRef:
+              name: lomax-config
+              key: AWS_ENDPOINT_URL
+        - name: AWS_DEFAULT_REGION
+          valueFrom:
+            configMapKeyRef:
+              name: lomax-config
+              key: AWS_DEFAULT_REGION
+        - name: DYNAMODB_TABLE
+          valueFrom:
+            configMapKeyRef:
+              name: lomax-config
+              key: DYNAMODB_TABLE
+        - name: ORIGINAL_BUCKET
+          valueFrom:
+            configMapKeyRef:
+              name: lomax-config
+              key: ORIGINAL_BUCKET
+        - name: THUMBNAIL_BUCKET
+          valueFrom:
+            configMapKeyRef:
+              name: lomax-config
+              key: THUMBNAIL_BUCKET
+        - name: LAMBDA_FUNCTION
+          valueFrom:
+            configMapKeyRef:
+              name: lomax-config
+              key: LAMBDA_FUNCTION
+        - name: DB_USER
+          valueFrom:
+            secretKeyRef:
+              name: lomax-secret
+              key: DB_USER
+        - name: DB_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: lomax-secret
+              key: DB_PASSWORD
+        - name: AWS_ACCESS_KEY_ID
+          valueFrom:
+            secretKeyRef:
+              name: lomax-secret
+              key: AWS_ACCESS_KEY_ID
+        - name: AWS_SECRET_ACCESS_KEY
+          valueFrom:
+            secretKeyRef:
+              name: lomax-secret
+              key: AWS_SECRET_ACCESS_KEY
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 5
+          periodSeconds: 5
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 10
+          periodSeconds: 10
+        resources:
+          requests:
+            cpu: 100m
+            memory: 128Mi
+          limits:
+            cpu: 500m
+            memory: 512Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lomax-backend-service
+  labels:
+    app: lomax
+    tier: backend
+spec:
+  type: ClusterIP
+  selector:
+    app: lomax
+    tier: backend
+  ports:
+  - port: 8000
+    targetPort: 8000
+    name: http

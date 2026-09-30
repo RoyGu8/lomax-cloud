@@ -1,0 +1,15 @@
+{
+  "000000000000/lomax-eks-admin" : {
+    "userId" : "AIDALFW961EIB0KAX6PN",
+    "userName" : "lomax-eks-admin",
+    "path" : "/",
+    "arn" : "arn:aws:iam::000000000000:user/lomax-eks-admin",
+    "createDate" : "2026-09-27T05:07:27.629924515Z",
+    "passwordLastUsed" : null,
+    "tags" : { },
+    "groupNames" : [ ],
+    "attachedPolicyArns" : [ ],
+    "inlinePolicies" : { },
+    "permissionsBoundaryArn" : null
+  }
+}

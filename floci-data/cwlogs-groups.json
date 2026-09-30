@@ -1,0 +1,42 @@
+{
+  "000000000000/us-east-1::/aws/ecr/registry" : {
+    "logGroupName" : "/aws/ecr/registry",
+    "createdTime" : 1790482589578,
+    "retentionInDays" : null,
+    "deletionProtectionEnabled" : false,
+    "kmsKeyId" : null,
+    "tags" : { }
+  },
+  "000000000000/us-east-1::/aws/rds/instance/lomax-rds/error" : {
+    "logGroupName" : "/aws/rds/instance/lomax-rds/error",
+    "createdTime" : 1790472501993,
+    "retentionInDays" : null,
+    "deletionProtectionEnabled" : false,
+    "kmsKeyId" : null,
+    "tags" : { }
+  },
+  "000000000000/us-east-1::/floci/ui" : {
+    "logGroupName" : "/floci/ui",
+    "createdTime" : 1790484972396,
+    "retentionInDays" : null,
+    "deletionProtectionEnabled" : false,
+    "kmsKeyId" : null,
+    "tags" : { }
+  },
+  "000000000000/us-east-1::/aws/lambda/lomax-image-processor" : {
+    "logGroupName" : "/aws/lambda/lomax-image-processor",
+    "createdTime" : 1790476363450,
+    "retentionInDays" : null,
+    "deletionProtectionEnabled" : false,
+    "kmsKeyId" : null,
+    "tags" : { }
+  },
+  "000000000000/us-east-1::/aws/lambda/prueba-imagen" : {
+    "logGroupName" : "/aws/lambda/prueba-imagen",
+    "createdTime" : 1790476643387,
+    "retentionInDays" : null,
+    "deletionProtectionEnabled" : false,
+    "kmsKeyId" : null,
+    "tags" : { }
+  }
+}

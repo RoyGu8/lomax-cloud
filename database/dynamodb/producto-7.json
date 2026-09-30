@@ -1,0 +1,30 @@
+{
+  "producto_id": {
+    "S": "7"
+  },
+  "tipo": {
+    "S": "teclado"
+  },
+  "atributos": {
+    "M": {
+      "conexion": {
+        "S": "Bluetooth"
+      },
+      "distribucion": {
+        "S": "Español"
+      },
+      "retroiluminacion": {
+        "S": "RGB"
+      }
+    }
+  },
+  "imagen_original_key": {
+    "S": ""
+  },
+  "miniatura_key": {
+    "S": ""
+  },
+  "estado_imagen": {
+    "S": "PENDIENTE"
+  }
+}

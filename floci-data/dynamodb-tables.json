@@ -1,0 +1,48 @@
+{
+  "000000000000/us-east-1::producto_atributos" : {
+    "tableName" : "producto_atributos",
+    "keySchema" : [ {
+      "attributeName" : "producto_id",
+      "keyType" : "HASH"
+    } ],
+    "attributeDefinitions" : [ {
+      "attributeName" : "producto_id",
+      "attributeType" : "S"
+    } ],
+    "tableStatus" : "ACTIVE",
+    "creationDateTime" : "2026-09-27T01:40:50.938259767Z",
+    "itemCount" : 8,
+    "tableSizeBytes" : 0,
+    "provisionedThroughput" : {
+      "readCapacityUnits" : 0,
+      "writeCapacityUnits" : 0,
+      "lastIncreaseDateTime" : null,
+      "lastDecreaseDateTime" : null,
+      "numberOfDecreasesToday" : 0
+    },
+    "tableArn" : "arn:aws:dynamodb:us-east-1:000000000000:table/producto_atributos",
+    "tags" : { },
+    "globalSecondaryIndexes" : [ ],
+    "localSecondaryIndexes" : [ ],
+    "billingMode" : "PAY_PER_REQUEST",
+    "ttlAttributeName" : null,
+    "ttlEnabled" : false,
+    "pointInTimeRecoveryEnabled" : false,
+    "pointInTimeRecoveryRecoveryPeriodInDays" : 35,
+    "deletionProtectionEnabled" : false,
+    "streamEnabled" : false,
+    "streamArn" : null,
+    "streamViewType" : null,
+    "sseEnabled" : false,
+    "sseType" : null,
+    "kmsMasterKeyArn" : null,
+    "kinesisStreamingDestinations" : [ ],
+    "tableId" : "4636748a-5d11-43fb-b51a-f4349c4820a5",
+    "tableClass" : null,
+    "onDemandMaxReadRequestUnits" : null,
+    "onDemandMaxWriteRequestUnits" : null,
+    "replicaRegions" : [ ],
+    "resourcePolicy" : null,
+    "resourcePolicyRevisionId" : null
+  }
+}

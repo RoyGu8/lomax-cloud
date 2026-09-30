@@ -1,0 +1,976 @@
+{
+  "000000000000/us-east-1::producto_atributos" : {
+    "46" : {
+      "producto_id" : {
+        "S" : "46"
+      },
+      "tipo" : {
+        "S" : "producto"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "teclado"
+          },
+          "conexion" : {
+            "S" : "USB"
+          },
+          "distribucion" : {
+            "S" : "Español"
+          },
+          "retroiluminacion" : {
+            "S" : "RGB"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/46/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/46/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "47" : {
+      "producto_id" : {
+        "S" : "47"
+      },
+      "tipo" : {
+        "S" : "producto"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "prueba"
+          },
+          "origen" : {
+            "S" : "E4"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : ""
+      },
+      "miniatura_key" : {
+        "S" : ""
+      },
+      "estado_imagen" : {
+        "S" : "PENDIENTE"
+      }
+    },
+    "48" : {
+      "producto_id" : {
+        "S" : "48"
+      },
+      "tipo" : {
+        "S" : "producto"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "producto"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : ""
+      },
+      "miniatura_key" : {
+        "S" : ""
+      },
+      "estado_imagen" : {
+        "S" : "PENDIENTE"
+      }
+    },
+    "49" : {
+      "producto_id" : {
+        "S" : "49"
+      },
+      "tipo" : {
+        "S" : "producto"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "accesorio"
+          },
+          "conexion" : {
+            "S" : "USB"
+          },
+          "color" : {
+            "S" : "negro"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : ""
+      },
+      "miniatura_key" : {
+        "S" : ""
+      },
+      "estado_imagen" : {
+        "S" : "PENDIENTE"
+      }
+    },
+    "50" : {
+      "producto_id" : {
+        "S" : "50"
+      },
+      "tipo" : {
+        "S" : "producto"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "accesorio"
+          },
+          "conexion" : {
+            "S" : "USB"
+          },
+          "color" : {
+            "S" : "negro"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : ""
+      },
+      "miniatura_key" : {
+        "S" : ""
+      },
+      "estado_imagen" : {
+        "S" : "PENDIENTE"
+      }
+    },
+    "51" : {
+      "producto_id" : {
+        "S" : "51"
+      },
+      "tipo" : {
+        "S" : "producto"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "producto"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/51/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/51/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "52" : {
+      "producto_id" : {
+        "S" : "52"
+      },
+      "tipo" : {
+        "S" : "producto"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "producto"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/52/imagen.jpg"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/52/imagen-thumb.jpg"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "10" : {
+      "producto_id" : {
+        "S" : "10"
+      },
+      "tipo" : {
+        "S" : "monitor"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "monitor"
+          },
+          "pulgadas" : {
+            "N" : "22.0"
+          },
+          "resolucion" : {
+            "S" : "1920x1080"
+          },
+          "frecuencia_hz" : {
+            "N" : "75"
+          },
+          "panel" : {
+            "S" : "VA"
+          },
+          "entradas" : {
+            "S" : "HDMI, VGA"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/10/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/10/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "11" : {
+      "producto_id" : {
+        "S" : "11"
+      },
+      "tipo" : {
+        "S" : "monitor"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "monitor"
+          },
+          "pulgadas" : {
+            "N" : "34.0"
+          },
+          "resolucion" : {
+            "S" : "3440x1440 (UWQHD)"
+          },
+          "frecuencia_hz" : {
+            "N" : "144"
+          },
+          "panel" : {
+            "S" : "Curvo 1500R VA"
+          },
+          "hdr" : {
+            "BOOL" : true
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/11/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/11/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "12" : {
+      "producto_id" : {
+        "S" : "12"
+      },
+      "tipo" : {
+        "S" : "monitor"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "monitor"
+          },
+          "pulgadas" : {
+            "N" : "27.0"
+          },
+          "resolucion" : {
+            "S" : "2560x1440 (QHD)"
+          },
+          "frecuencia_hz" : {
+            "N" : "165"
+          },
+          "panel" : {
+            "S" : "Fast IPS"
+          },
+          "tiempo_respuesta_ms" : {
+            "N" : "1"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/12/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/12/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "13" : {
+      "producto_id" : {
+        "S" : "13"
+      },
+      "tipo" : {
+        "S" : "monitor"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "monitor"
+          },
+          "pulgadas" : {
+            "N" : "27.0"
+          },
+          "resolucion" : {
+            "S" : "2560x1440 (QHD)"
+          },
+          "frecuencia_hz" : {
+            "N" : "75"
+          },
+          "panel" : {
+            "S" : "IPS"
+          },
+          "usb_hub" : {
+            "BOOL" : true
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/13/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/13/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "14" : {
+      "producto_id" : {
+        "S" : "14"
+      },
+      "tipo" : {
+        "S" : "monitor"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "monitor"
+          },
+          "pulgadas" : {
+            "N" : "24.0"
+          },
+          "resolucion" : {
+            "S" : "1920x1080 (FHD)"
+          },
+          "frecuencia_hz" : {
+            "N" : "100"
+          },
+          "panel" : {
+            "S" : "IPS"
+          },
+          "tiempo_respuesta_ms" : {
+            "N" : "4"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/14/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/14/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "15" : {
+      "producto_id" : {
+        "S" : "15"
+      },
+      "tipo" : {
+        "S" : "almacenamiento"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "almacenamiento"
+          },
+          "subtipo" : {
+            "S" : "pendrive"
+          },
+          "capacidad_gb" : {
+            "N" : "128"
+          },
+          "interfaz" : {
+            "S" : "USB 3.2 Gen 1"
+          },
+          "carcasa" : {
+            "S" : "Metalica"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/15/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/15/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "16" : {
+      "producto_id" : {
+        "S" : "16"
+      },
+      "tipo" : {
+        "S" : "almacenamiento"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "almacenamiento"
+          },
+          "subtipo" : {
+            "S" : "hdd_externo"
+          },
+          "capacidad_tb" : {
+            "N" : "2"
+          },
+          "interfaz" : {
+            "S" : "USB 3.0"
+          },
+          "formato" : {
+            "S" : "2.5 pulgadas"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/16/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/16/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "17" : {
+      "producto_id" : {
+        "S" : "17"
+      },
+      "tipo" : {
+        "S" : "almacenamiento"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "almacenamiento"
+          },
+          "subtipo" : {
+            "S" : "hdd_externo"
+          },
+          "capacidad_tb" : {
+            "N" : "1"
+          },
+          "interfaz" : {
+            "S" : "USB 3.0"
+          },
+          "formato" : {
+            "S" : "2.5 pulgadas"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/17/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/17/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "18" : {
+      "producto_id" : {
+        "S" : "18"
+      },
+      "tipo" : {
+        "S" : "almacenamiento"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "almacenamiento"
+          },
+          "subtipo" : {
+            "S" : "ssd_nvme"
+          },
+          "capacidad_tb" : {
+            "N" : "2"
+          },
+          "interfaz" : {
+            "S" : "PCIe 4.0 NVMe M.2"
+          },
+          "lectura_mb_s" : {
+            "N" : "7000"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/18/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/18/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "19" : {
+      "producto_id" : {
+        "S" : "19"
+      },
+      "tipo" : {
+        "S" : "almacenamiento"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "almacenamiento"
+          },
+          "subtipo" : {
+            "S" : "ssd_nvme"
+          },
+          "capacidad_tb" : {
+            "N" : "1"
+          },
+          "interfaz" : {
+            "S" : "PCIe 4.0 NVMe M.2"
+          },
+          "lectura_mb_s" : {
+            "N" : "5000"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/19/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/19/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "1" : {
+      "producto_id" : {
+        "S" : "1"
+      },
+      "tipo" : {
+        "S" : "periferico"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "periferico"
+          },
+          "subtipo" : {
+            "S" : "hub"
+          },
+          "conexion" : {
+            "S" : "USB-C"
+          },
+          "puertos" : {
+            "S" : "7 en 1"
+          },
+          "velocidad" : {
+            "S" : "10 Gbps"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/1/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/1/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "2" : {
+      "producto_id" : {
+        "S" : "2"
+      },
+      "tipo" : {
+        "S" : "periferico"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "periferico"
+          },
+          "subtipo" : {
+            "S" : "webcam"
+          },
+          "resolucion" : {
+            "S" : "1080p"
+          },
+          "fps" : {
+            "N" : "60"
+          },
+          "conexion" : {
+            "S" : "USB-A"
+          },
+          "microfono" : {
+            "S" : "dual"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/2/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/2/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "3" : {
+      "producto_id" : {
+        "S" : "3"
+      },
+      "tipo" : {
+        "S" : "periferico"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "periferico"
+          },
+          "subtipo" : {
+            "S" : "audio"
+          },
+          "conexion" : {
+            "S" : "USB"
+          },
+          "cancelacion_ruido" : {
+            "BOOL" : true
+          },
+          "impedancia_ohm" : {
+            "N" : "32"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/3/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/3/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "4" : {
+      "producto_id" : {
+        "S" : "4"
+      },
+      "tipo" : {
+        "S" : "periferico"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "periferico"
+          },
+          "subtipo" : {
+            "S" : "mouse"
+          },
+          "sensor" : {
+            "S" : "Optico 16000 DPI"
+          },
+          "conexion" : {
+            "S" : "USB"
+          },
+          "rgb" : {
+            "BOOL" : true
+          },
+          "botones" : {
+            "N" : "6"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/4/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/4/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "5" : {
+      "producto_id" : {
+        "S" : "5"
+      },
+      "tipo" : {
+        "S" : "periferico"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "periferico"
+          },
+          "subtipo" : {
+            "S" : "teclado"
+          },
+          "conexion" : {
+            "S" : "Inalambrico 2.4GHz"
+          },
+          "distribucion" : {
+            "S" : "Espanol"
+          },
+          "bateria_horas" : {
+            "N" : "120"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/5/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/5/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "6" : {
+      "producto_id" : {
+        "S" : "6"
+      },
+      "tipo" : {
+        "S" : "periferico"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "periferico"
+          },
+          "subtipo" : {
+            "S" : "mouse"
+          },
+          "conexion" : {
+            "S" : "Inalambrico Bluetooth"
+          },
+          "sensor" : {
+            "S" : "Optico 4000 DPI"
+          },
+          "ergonomico" : {
+            "BOOL" : true
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/6/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/6/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "7" : {
+      "producto_id" : {
+        "S" : "7"
+      },
+      "tipo" : {
+        "S" : "teclado"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "periferico"
+          },
+          "subtipo" : {
+            "S" : "teclado"
+          },
+          "conexion" : {
+            "S" : "USB / Bluetooth"
+          },
+          "distribucion" : {
+            "S" : "Espanol ISO"
+          },
+          "retroiluminacion" : {
+            "S" : "RGB"
+          },
+          "switches" : {
+            "S" : "Mecanico Brown"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/7/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/7/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "8" : {
+      "producto_id" : {
+        "S" : "8"
+      },
+      "tipo" : {
+        "S" : "monitor"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "monitor"
+          },
+          "pulgadas" : {
+            "N" : "15.6"
+          },
+          "resolucion" : {
+            "S" : "1920x1080"
+          },
+          "frecuencia_hz" : {
+            "N" : "60"
+          },
+          "panel" : {
+            "S" : "IPS"
+          },
+          "portatil" : {
+            "BOOL" : true
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/8/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/8/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "9" : {
+      "producto_id" : {
+        "S" : "9"
+      },
+      "tipo" : {
+        "S" : "monitor"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "monitor"
+          },
+          "pulgadas" : {
+            "N" : "27.0"
+          },
+          "resolucion" : {
+            "S" : "3840x2160 (4K)"
+          },
+          "frecuencia_hz" : {
+            "N" : "60"
+          },
+          "panel" : {
+            "S" : "IPS Profesional"
+          },
+          "espacio_color" : {
+            "S" : "sRGB 99%"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/9/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/9/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "20" : {
+      "producto_id" : {
+        "S" : "20"
+      },
+      "tipo" : {
+        "S" : "almacenamiento"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "almacenamiento"
+          },
+          "subtipo" : {
+            "S" : "ssd_sata"
+          },
+          "capacidad_gb" : {
+            "N" : "500"
+          },
+          "interfaz" : {
+            "S" : "SATA III 2.5 pulgadas"
+          },
+          "lectura_mb_s" : {
+            "N" : "550"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/20/imagen.png"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/20/imagen-thumb.png"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    },
+    "21" : {
+      "producto_id" : {
+        "S" : "21"
+      },
+      "tipo" : {
+        "S" : "producto"
+      },
+      "atributos" : {
+        "M" : {
+          "tipo" : {
+            "S" : "periferico"
+          },
+          "conexion" : {
+            "S" : "USB-C"
+          },
+          "color" : {
+            "S" : "Negro"
+          }
+        }
+      },
+      "imagen_original_key" : {
+        "S" : "originales/21/imagen.jpg"
+      },
+      "miniatura_key" : {
+        "S" : "miniaturas/21/imagen-thumb.jpg"
+      },
+      "estado_imagen" : {
+        "S" : "LISTA"
+      }
+    }
+  }
+}
